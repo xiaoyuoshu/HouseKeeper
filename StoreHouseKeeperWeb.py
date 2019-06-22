@@ -83,8 +83,6 @@ def logout():
 
 @app.route('/api/log/operating/')
 def operating_log():
-    if session.get('logged_in') is not True:
-        return json.dumps({"error": 0})
     query = connSQL.getOP(session.get('account'))
     data = []
     for d in query:
@@ -104,8 +102,6 @@ def operating_log():
 
 @app.route('/api/log/warning/')
 def warning_log():
-    if session.get('logged_in') is not True:
-        return json.dumps({"error": 0})
     query = connSQL.getWR(session.get('account'))
     data = []
     for d in query:
@@ -125,8 +121,6 @@ def warning_log():
 
 @app.route('/api/getData/')
 def getData():
-    if session.get('logged_in') is not True:
-        return json.dumps({"error": 0})
     t = request.args.get('time')
     query = connSQL.getData(session.get('account'), t)
     data = []
@@ -145,8 +139,6 @@ def getData():
 
 @app.route('/api/getNowData/')
 def getNowData():
-    if session.get('logged_in') is not True:
-        return json.dumps({"error": 0})
     query = connSQL.getNowData(session.get('account'))
     data = []
     for d in query:
