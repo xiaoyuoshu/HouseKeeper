@@ -162,6 +162,11 @@ def getNowData():
 
 
 # api for wx
+@app.route('/api/wxAirControl/',  methods=['POST'])
+def wxAirControl():
+    print(request.form)
+
+
 @app.route('/api/getDatawx/')
 def getDatawx():
     t = request.args.get('time')

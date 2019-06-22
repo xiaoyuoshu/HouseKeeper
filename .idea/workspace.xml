@@ -237,12 +237,12 @@
       <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="170" column="21" lean-forward="true" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
+            <state relative-caret-position="520">
+              <caret line="166" column="23" lean-forward="true" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1096#1172#0" expanded="false" />
-                <element signature="e#5678#5682#0" expanded="false" />
+                <element signature="e#5776#5780#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -537,7 +537,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5678#5682#0" expanded="false" />
+            <element signature="e#5776#5780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,7 +572,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5678#5682#0" expanded="false" />
+            <element signature="e#5776#5780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -614,7 +614,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5678#5682#0" expanded="false" />
+            <element signature="e#5776#5780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +656,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5678#5682#0" expanded="false" />
+            <element signature="e#5776#5780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,7 +698,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5678#5682#0" expanded="false" />
+            <element signature="e#5776#5780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,7 +724,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5678#5682#0" expanded="false" />
+            <element signature="e#5776#5780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,7 +736,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5678#5682#0" expanded="false" />
+            <element signature="e#5776#5780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -832,6 +832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,12 +938,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="170" column="21" lean-forward="true" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
+        <state relative-caret-position="520">
+          <caret line="166" column="23" lean-forward="true" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5678#5682#0" expanded="false" />
+            <element signature="e#5776#5780#0" expanded="false" />
           </folding>
         </state>
       </provider>
