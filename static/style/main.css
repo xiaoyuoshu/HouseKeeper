@@ -1,0 +1,52 @@
+.topNav {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.section_container {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content-h1 {
+    margin-bottom: 10px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    color: #0C0C0C;
+    border-bottom: 1px solid #D3D4D3;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.Nav_content {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.05);
+}
+
+.logout_button {
+    float: right;
+    cursor:pointer;
+}
+
+.Nav_bread {
+    margin-top: 60%;
+}
+
+.click_able {
+    cursor: pointer;
+}
+
+.rela {
+    position: relative;
+}
+
+.full_height {
+    height: 100%;
+}
+
+html {
+    background: #f4f5f7;
+}

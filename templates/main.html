@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../static/layui/css/layui.css">
+  <link rel="stylesheet" href="../static/style/main.css?t=1.54">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video-js.min.css" rel="stylesheet">
+  <script src="../static/javascripts/jquery-3.1.1.min.js"></script>
+  <script src="../static/layui/layui.js"></script>
+  <script src="../static/javascripts/main.js?t=1.20"></script>
+  <script src="../static/javascripts/Chart.js?t=1"></script>
+  <script src="../static/javascripts/browserMqtt.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video.min.js"></script>
+</head>
+<body class="rela">
+<!--导航栏-->
+  <div class="topNav">
+    <div class="layui-card Nav_content">
+        <div class="layui-card-body">
+          <div class="layui-row">
+            <div class="layui-col-md2" style="font-size: x-large">智能食品仓库管家</div>
+            <div class="layui-col-md6">
+              <span class="layui-breadcrumb Nav_bread">
+                <a href="#real_time_info" class="click_able">实时信息</a>
+                <a href="#path_control" class="click_able">路径控制</a>
+                <a href="#environment_para" class="click_able">环境参数</a>
+                <a href="#log_info" class="click_able">日志记录</a>
+              </span>
+            </div>
+            <div class="layui-col-md3">
+              <p id="userid" style="text-align: right">{{ userid }}</p>
+            </div>
+            <div class="layui-col-md1">
+              <div class="logout_button" id="logout">退出登录</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+<!--内容-->
+  <!--实时信息-->
+  <div id="real_time_info" class="layui-row section_container layui-col-space20">
+    <div class="layui-col-md10 layui-col-lg-offset1">
+      <h1 class="content-h1">实时信息</h1>
+    </div>
+    <div class="layui-col-md1"></div>
+    <div class="layui-col-md7 layui-col-lg-offset1">
+      <video id="myvideo" class="video-js vjs-default-skin" controls preload="auto" autoplay style="width: 100%;height: 615px">
+        <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="rtmp/flv">
+      </video>
+      <script>
+        var player = videojs('myvideo', {}, function(){console.log('videojs播放器初始化成功')})
+            player.play();
+      </script>
+    </div>
+    <div class="layui-col-md3">
+      <div class="layui-card" style="height: 350px">
+        <div class="layui-card-header">当前环境信息</div>
+        <div class="layui-card-body">
+          <table class="layui-table" lay-size="lg" style="margin-top: 15px">
+            <colgroup>
+              <col width="120">
+              <col>
+            </colgroup>
+            <tbody id="now">
+              <tr><td>温度</td><td id="tem">0</td></tr>
+              <tr><td>湿度</td><td id="hum">0</td></tr>
+              <tr><td>烟雾浓度</td><td id="illumination">0</td></tr>
+              <tr><td>光照强度</td><td id="smoke">0</td></tr>
+              <tr><td>大气压强</td><td id="co2">0</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="layui-card" style="height: 250px;margin-bottom: 0">
+        <div class="layui-card-header">空调控制</div>
+        <div class="layui-card-body">
+          <form class="layui-form" lay-filter="aircontrol">
+            <div class="layui-form-item">
+              <label class="layui-form-label">空调温度</label>
+              <div class="layui-input-block">
+                <select name="temperature" lay-filter="temperature">
+                  <option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option>
+                </select>
+              </div>
+            </div>
+            <div class="layui-form-item">
+              <label class="layui-form-label">空调开关</label>
+              <div class="layui-input-block">
+                <input name="airon" type="checkbox" lay-skin="switch" lay-filter="airon" lay-text="开|关">
+              </div>
+            </div>
+            <div class="layui-form-item">
+              <div class="layui-input-block">
+                <button class="layui-btn" lay-submit lay-filter="aircontrol">提交</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--路径控制-->
+  <div id="path_control" class="layui-row section_container layui-col-space20">
+    <div class="layui-col-md10 layui-col-lg-offset1">
+      <h1 class="content-h1">路径控制</h1>
+    </div>
+    <div style="height: 700px">
+
+    </div>
+  </div>
+  <!--环境参数-->
+  <div id="environment_para" class="layui-row section_container layui-col-space20">
+    <div class="layui-col-md10 layui-col-lg-offset1">
+      <h1 class="content-h1">环境参数</h1>
+    </div>
+    <div style="height: 630px">
+      <div class="layui-col-md10 layui-col-lg-offset1 full_height">
+        <div class="layui-card full_height">
+          <div class="layui-card-body full_height">
+            <div class="layui-btn-container" style="margin-left: 10px;margin-top: 10px;text-align: center">
+              <button id="randomizeData" type="button" class="layui-btn">温度</button>
+              <button id="addDataset" type="button" class="layui-btn ">湿度</button>
+              <button id="removeDataset" type="button" class="layui-btn">烟雾浓度</button>
+              <button id="addData" type="button" class="layui-btn">光照强度</button>
+              <button id="removeData" type="button" class="layui-btn">大气压强</button>
+            </div>
+            <div style="width: 80%;height: 80%;margin-left: 10%">
+              <canvas id="canvas"></canvas>
+            </div>
+          </div>
+          <script>
+            var ctx = $("#canvas").get(0).getContext("2d");
+            var chart = new Chart(ctx, {
+                type: 'line',
+                data: [{
+                    x: new Date() - 1000*60,
+                    y: 20
+                },{
+                    x: new Date() - 1000*60*2,
+                    y: 20
+                },{
+                    x: new Date() - 1000*60*3,
+                    y: 20
+                },{
+                    x: new Date() - 1000*60*4,
+                    y: 20
+                },{
+                    x: new Date() - 1000*60*5,
+                    y: 20
+                },{
+                    x: new Date() - 1000*60*6,
+                    y: 20
+                }],
+                options: {
+                    scales: {
+                        xAxes: [{
+                            type: 'time',
+                            time: {
+                                unit: 'minute'
+                            }
+                        }]
+                    }
+                }
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--日志记录-->
+  <div id="log_info" class="layui-row section_container layui-col-space20">
+    <div class="layui-col-md10 layui-col-lg-offset1">
+      <h1 class="content-h1">日志记录</h1>
+    </div>
+    <div style="height: 580px">
+      <div class="layui-col-md10 layui-col-lg-offset1 full_height">
+        <div class="layui-card full_height">
+          <div class="layui-card-body full_height">
+            <span>
+              <button id="operating_log_btn" type="button" class="layui-btn layui-btn-normal">操作日志<span id="newop" class="layui-badge-dot" style="display: none"></span></button>
+              <button id="warning_log_btn" type="button" class="layui-btn layui-btn-danger">危险记录<span id="newwr" class="layui-badge-dot" style="display: none"></span></button>
+              <button id="refresh_table" type="button" class="layui-btn layui-btn-primary"><i class="layui-icon layui-icon-refresh"></i>  </button>
+              <div id="op_wr" style="display: none">1</div>
+            </span>
+            <table id="log_tbl" lay-filter="operating_log_tbl"></table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
