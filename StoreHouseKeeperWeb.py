@@ -56,6 +56,8 @@ def login_form():
     # 接收登录表单，并创建session
     login_account = request.form['account']
     login_password = request.form['password']
+    print(request.form['account'])
+    print(request.form['password'])
     password = connSQL.get_password(login_account)
     if password is -1:
         return json.dumps({'success': 0})

@@ -235,28 +235,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+            <state relative-caret-position="371">
+              <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1096#1172#0" expanded="false" />
-                <element signature="e#1247#1826#0" expanded="false" />
-                <element signature="e#2029#2449#0" expanded="false" />
-                <element signature="e#2507#2935#0" expanded="false" />
-                <element signature="e#4793#4797#0" expanded="false" />
+                <element signature="e#2100#2520#0" expanded="false" />
+                <element signature="e#2578#3006#0" expanded="false" />
+                <element signature="e#4864#4868#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connSQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="1710">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <marker date="1561198179731" expanded="true" signature="250:283" ph="select * fro... USER" />
                 <marker date="1561198179731" expanded="true" signature="250:284" ph="select * fro... USER" />
@@ -321,6 +320,7 @@
       <find>on</find>
       <find>jsoni</find>
       <find>sqlco</find>
+      <find>登录</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -339,8 +339,8 @@
         <option value="$PROJECT_DIR$/static/javascripts/main.js" />
         <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
         <option value="$PROJECT_DIR$/connSQL.py" />
+        <option value="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
       </list>
     </option>
   </component>
@@ -535,10 +535,9 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1247#1826#0" expanded="false" />
-            <element signature="e#2029#2449#0" expanded="false" />
-            <element signature="e#2507#2935#0" expanded="false" />
-            <element signature="e#4793#4797#0" expanded="false" />
+            <element signature="e#2100#2520#0" expanded="false" />
+            <element signature="e#2578#3006#0" expanded="false" />
+            <element signature="e#4864#4868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -573,10 +572,9 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1247#1826#0" expanded="false" />
-            <element signature="e#2029#2449#0" expanded="false" />
-            <element signature="e#2507#2935#0" expanded="false" />
-            <element signature="e#4793#4797#0" expanded="false" />
+            <element signature="e#2100#2520#0" expanded="false" />
+            <element signature="e#2578#3006#0" expanded="false" />
+            <element signature="e#4864#4868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -618,10 +616,9 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1247#1826#0" expanded="false" />
-            <element signature="e#2029#2449#0" expanded="false" />
-            <element signature="e#2507#2935#0" expanded="false" />
-            <element signature="e#4793#4797#0" expanded="false" />
+            <element signature="e#2100#2520#0" expanded="false" />
+            <element signature="e#2578#3006#0" expanded="false" />
+            <element signature="e#4864#4868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -663,10 +660,9 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1247#1826#0" expanded="false" />
-            <element signature="e#2029#2449#0" expanded="false" />
-            <element signature="e#2507#2935#0" expanded="false" />
-            <element signature="e#4793#4797#0" expanded="false" />
+            <element signature="e#2100#2520#0" expanded="false" />
+            <element signature="e#2578#3006#0" expanded="false" />
+            <element signature="e#4864#4868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -708,10 +704,9 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1247#1826#0" expanded="false" />
-            <element signature="e#2029#2449#0" expanded="false" />
-            <element signature="e#2507#2935#0" expanded="false" />
-            <element signature="e#4793#4797#0" expanded="false" />
+            <element signature="e#2100#2520#0" expanded="false" />
+            <element signature="e#2578#3006#0" expanded="false" />
+            <element signature="e#4864#4868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,10 +732,9 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1247#1826#0" expanded="false" />
-            <element signature="e#2029#2449#0" expanded="false" />
-            <element signature="e#2507#2935#0" expanded="false" />
-            <element signature="e#4793#4797#0" expanded="false" />
+            <element signature="e#2100#2520#0" expanded="false" />
+            <element signature="e#2578#3006#0" expanded="false" />
+            <element signature="e#4864#4868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,10 +746,9 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1247#1826#0" expanded="false" />
-            <element signature="e#2029#2449#0" expanded="false" />
-            <element signature="e#2507#2935#0" expanded="false" />
-            <element signature="e#4793#4797#0" expanded="false" />
+            <element signature="e#2100#2520#0" expanded="false" />
+            <element signature="e#2578#3006#0" expanded="false" />
+            <element signature="e#4864#4868#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,25 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1247#1826#0" expanded="false" />
-            <element signature="e#2029#2449#0" expanded="false" />
-            <element signature="e#2507#2935#0" expanded="false" />
-            <element signature="e#4793#4797#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connSQL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="1710">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <marker date="1561198179731" expanded="true" signature="250:283" ph="select * fro... USER" />
             <marker date="1561198179731" expanded="true" signature="250:284" ph="select * fro... USER" />
@@ -955,6 +933,20 @@
             <marker date="1561198179731" expanded="true" signature="2048:2130" ph="select * fro... operating_log" />
             <marker date="1561198179731" expanded="true" signature="2048:2151" ph="select optim... operating_log" />
             <marker date="1561198179731" expanded="true" signature="2334:2435" ph="select wrtim... warning_log" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1096#1172#0" expanded="false" />
+            <element signature="e#2100#2520#0" expanded="false" />
+            <element signature="e#2578#3006#0" expanded="false" />
+            <element signature="e#4864#4868#0" expanded="false" />
           </folding>
         </state>
       </provider>
