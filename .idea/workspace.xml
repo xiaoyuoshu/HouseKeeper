@@ -237,12 +237,12 @@
       <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="184" column="55" lean-forward="false" selection-start-line="184" selection-start-column="55" selection-end-line="184" selection-end-column="55" />
+            <state relative-caret-position="280">
+              <caret line="170" column="21" lean-forward="true" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1096#1172#0" expanded="false" />
-                <element signature="e#5674#5678#0" expanded="false" />
+                <element signature="e#5678#5682#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -347,7 +347,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -484,7 +484,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16302083" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -537,7 +537,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5674#5678#0" expanded="false" />
+            <element signature="e#5678#5682#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,7 +572,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5674#5678#0" expanded="false" />
+            <element signature="e#5678#5682#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -614,7 +614,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5674#5678#0" expanded="false" />
+            <element signature="e#5678#5682#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +656,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5674#5678#0" expanded="false" />
+            <element signature="e#5678#5682#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,7 +698,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5674#5678#0" expanded="false" />
+            <element signature="e#5678#5682#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,7 +724,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5674#5678#0" expanded="false" />
+            <element signature="e#5678#5682#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,7 +736,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5674#5678#0" expanded="false" />
+            <element signature="e#5678#5682#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -937,12 +937,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="184" column="55" lean-forward="false" selection-start-line="184" selection-start-column="55" selection-end-line="184" selection-end-column="55" />
+        <state relative-caret-position="280">
+          <caret line="170" column="21" lean-forward="true" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5674#5678#0" expanded="false" />
+            <element signature="e#5678#5682#0" expanded="false" />
           </folding>
         </state>
       </provider>

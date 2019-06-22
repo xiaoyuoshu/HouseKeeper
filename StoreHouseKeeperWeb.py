@@ -163,7 +163,7 @@ def getNowData():
 
 # api for wx
 @app.route('/api/getDatawx/')
-def getData():
+def getDatawx():
     t = request.args.get('time')
     query = connSQL.getData(request.args.get('account'), t)
     data = []
@@ -181,7 +181,7 @@ def getData():
 
 
 @app.route('/api/getNowDatawx/')
-def getNowData():
+def getNowDatawx():
     query = connSQL.getNowData(request.args.get('account'))
     data = []
     for d in query:
