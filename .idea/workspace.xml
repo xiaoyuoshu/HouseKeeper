@@ -237,12 +237,12 @@
       <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="166" column="23" lean-forward="true" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
+            <state relative-caret-position="431">
+              <caret line="132" column="19" lean-forward="true" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1096#1172#0" expanded="false" />
-                <element signature="e#5776#5780#0" expanded="false" />
+                <element signature="e#5760#5764#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -251,8 +251,8 @@
       <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connSQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="420">
+              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <marker date="1561200398604" expanded="true" signature="250:283" ph="select * fro... USER" />
                 <marker date="1561200398604" expanded="true" signature="250:284" ph="select * fro... USER" />
@@ -318,6 +318,7 @@
       <find>jsoni</find>
       <find>sqlco</find>
       <find>登录</find>
+      <find>getda</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -537,7 +538,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5776#5780#0" expanded="false" />
+            <element signature="e#5760#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,7 +573,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5776#5780#0" expanded="false" />
+            <element signature="e#5760#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -614,7 +615,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5776#5780#0" expanded="false" />
+            <element signature="e#5760#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +657,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5776#5780#0" expanded="false" />
+            <element signature="e#5760#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,7 +699,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5776#5780#0" expanded="false" />
+            <element signature="e#5760#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,7 +725,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5776#5780#0" expanded="false" />
+            <element signature="e#5760#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,7 +737,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5776#5780#0" expanded="false" />
+            <element signature="e#5760#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -911,8 +912,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/connSQL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="420">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
             <marker date="1561200398604" expanded="true" signature="250:283" ph="select * fro... USER" />
             <marker date="1561200398604" expanded="true" signature="250:284" ph="select * fro... USER" />
@@ -938,12 +939,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="166" column="23" lean-forward="true" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
+        <state relative-caret-position="431">
+          <caret line="132" column="19" lean-forward="true" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5776#5780#0" expanded="false" />
+            <element signature="e#5760#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>

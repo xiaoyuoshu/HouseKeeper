@@ -139,7 +139,6 @@ def getData():
             'smoke': d[4],
             'co2': d[5]
         })
-    print(data)
     return json.dumps(data)
 
 
