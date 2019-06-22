@@ -46,6 +46,16 @@ def getData(userid, time):
     return values
 
 
+def getDatawxbyNumber(userid, c):
+    sqlconn = conn()
+    cursor = sqlconn.cursor()
+    cursor.execute('select datatime,tem,hum,illumination,smoke,co2 from realTimeData WHERE userid = %s ORDER by datatime DESC limit '+c, (userid,))
+    values = cursor.fetchall()
+    cursor.close()
+    sqlconn.close()
+    return values
+
+
 def getNowData(userid):
     sqlconn = conn()
     cursor = sqlconn.cursor()

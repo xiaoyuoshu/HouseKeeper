@@ -2,214 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b2ae6a-616f-4903-ad42-4c44712303ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/aes-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/aes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/cipher-core-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/cipher-core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/core-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/enc-base64-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/enc-base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/enc-utf16-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/enc-utf16.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/evpkdf-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/evpkdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/format-hex-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/format-hex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/hmac-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/hmac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/lib-typedarrays-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/lib-typedarrays.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/md5-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-cfb-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-cfb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ctr-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ctr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ecb-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ecb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ofb-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ofb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-ansix923-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-ansix923.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-iso10126-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-iso10126.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-iso97971-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-iso97971.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-nopadding-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-nopadding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-zeropadding-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-zeropadding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pbkdf2-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pbkdf2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rabbit-legacy-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rabbit-legacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rabbit-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rabbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rc4-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rc4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/ripemd160-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/ripemd160.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha1-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha224-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha224.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha256-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha256.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha3-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha384-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha384.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha512-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha512.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/tripledes-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/tripledes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/x64-core-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/x64-core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/aes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-ripemd160.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha224.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha256.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha384.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha512.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/pbkdf2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/rabbit-legacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/rabbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/rc4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/ripemd160.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha224.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha256.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha384.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha512.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/tripledes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/browserMqtt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/jquery-3.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/layui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/layui.mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/code.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/laydate/default/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/layedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/laypage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/laytpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/rate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/transfer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/layui.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/other/background_login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/style/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/style/main.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoreHouseKeeperWeb.py" afterPath="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.html" afterPath="$PROJECT_DIR$/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connSQL.py" afterPath="$PROJECT_DIR$/connSQL.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -219,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/StoreHouseKeeperWeb$StoreHouseKeeperWeb.coverage" NAME="StoreHouseKeeperWeb Coverage Results" MODIFIED="1561199881347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/StoreHouseKeeperWeb$StoreHouseKeeperWeb.coverage" NAME="StoreHouseKeeperWeb Coverage Results" MODIFIED="1561207950520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -234,44 +29,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="132" column="19" lean-forward="true" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
+            <state relative-caret-position="160">
+              <caret line="189" column="37" lean-forward="false" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1096#1172#0" expanded="false" />
-                <element signature="e#5760#5764#0" expanded="false" />
+                <element signature="e#6205#6209#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/connSQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <marker date="1561200398604" expanded="true" signature="250:283" ph="select * fro... USER" />
-                <marker date="1561200398604" expanded="true" signature="250:284" ph="select * fro... USER" />
-                <marker date="1561200398604" expanded="true" signature="250:285" ph="select * fro... USER" />
-                <marker date="1561200398604" expanded="true" signature="250:286" ph="select * fro... USER" />
-                <marker date="1561200398604" expanded="true" signature="250:302" ph="select * fro... USER" />
-                <marker date="1561200398604" expanded="true" signature="250:304" ph="select * fro... USER" />
-                <marker date="1561200398604" expanded="true" signature="662:735" ph="insert into user... " />
-                <marker date="1561200398604" expanded="true" signature="662:742" ph="insert into realtimedata... " />
-                <marker date="1561200398604" expanded="true" signature="662:744" ph="insert into realtimedata... " />
-                <marker date="1561200398604" expanded="true" signature="662:765" ph="insert into realtimedata... " />
-                <marker date="1561200398604" expanded="true" signature="662:900" ph="insert into realtimedata... " />
-                <marker date="1561200398604" expanded="true" signature="662:960" ph="insert into realtimedata... " />
-                <marker date="1561200398604" expanded="true" signature="1061:1184" ph="select * dat... realTimeData" />
-                <marker date="1561200398604" expanded="true" signature="1408:1521" ph="select datat... realTimeData" />
-                <marker date="1561200398604" expanded="true" signature="1760:1838" ph="insert into realtimedata... " />
-                <marker date="1561200398604" expanded="true" signature="2048:2130" ph="select * fro... operating_log" />
-                <marker date="1561200398604" expanded="true" signature="2048:2151" ph="select optim... operating_log" />
-                <marker date="1561200398604" expanded="true" signature="2334:2435" ph="select wrtim... warning_log" />
+                <marker date="1561207985151" expanded="true" signature="250:283" ph="select * fro... USER" />
+                <marker date="1561207985151" expanded="true" signature="250:284" ph="select * fro... USER" />
+                <marker date="1561207985151" expanded="true" signature="250:285" ph="select * fro... USER" />
+                <marker date="1561207985151" expanded="true" signature="250:286" ph="select * fro... USER" />
+                <marker date="1561207985151" expanded="true" signature="250:302" ph="select * fro... USER" />
+                <marker date="1561207985151" expanded="true" signature="250:304" ph="select * fro... USER" />
+                <marker date="1561207985151" expanded="true" signature="662:735" ph="insert into user... " />
+                <marker date="1561207985151" expanded="true" signature="662:742" ph="insert into realtimedata... " />
+                <marker date="1561207985151" expanded="true" signature="662:744" ph="insert into realtimedata... " />
+                <marker date="1561207985151" expanded="true" signature="662:765" ph="insert into realtimedata... " />
+                <marker date="1561207985151" expanded="true" signature="662:900" ph="insert into realtimedata... " />
+                <marker date="1561207985151" expanded="true" signature="662:960" ph="insert into realtimedata... " />
+                <marker date="1561207985151" expanded="true" signature="1061:1184" ph="select * dat... realTimeData" />
+                <marker date="1561207985151" expanded="true" signature="1418:1529" ph="select datat... realTimeData" />
+                <marker date="1561207985151" expanded="true" signature="1418:1530" ph="select datat... realTimeData" />
+                <marker date="1561207985151" expanded="true" signature="1731:1844" ph="select datat... realTimeData" />
+                <marker date="1561207985151" expanded="true" signature="2083:2161" ph="insert into realtimedata... " />
+                <marker date="1561207985151" expanded="true" signature="2371:2453" ph="select * fro... operating_log" />
+                <marker date="1561207985151" expanded="true" signature="2371:2474" ph="select optim... operating_log" />
+                <marker date="1561207985151" expanded="true" signature="2657:2758" ph="select wrtim... warning_log" />
               </folding>
             </state>
           </provider>
@@ -280,7 +77,7 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="30">
               <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
@@ -291,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -337,8 +134,8 @@
         <option value="$PROJECT_DIR$/static/javascripts/main.js" />
         <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/connSQL.py" />
         <option value="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
+        <option value="$PROJECT_DIR$/connSQL.py" />
       </list>
     </option>
   </component>
@@ -389,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -425,6 +221,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,13 +289,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29690948" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29707113" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39845476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -538,26 +335,13 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5760#5764#0" expanded="false" />
+            <element signature="e#6205#6209#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style/main.css" />
+    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js" />
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -573,19 +357,12 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5760#5764#0" expanded="false" />
+            <element signature="e#6205#6209#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js" />
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
@@ -593,13 +370,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style/main.css" />
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -615,7 +386,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5760#5764#0" expanded="false" />
+            <element signature="e#6205#6209#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -628,21 +399,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/style/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js" />
+    <entry file="file://$PROJECT_DIR$/static/style/login.css" />
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -657,7 +415,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5760#5764#0" expanded="false" />
+            <element signature="e#6205#6209#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,14 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js" />
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -685,13 +436,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/login.js" />
     <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -699,7 +444,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5760#5764#0" expanded="false" />
+            <element signature="e#6205#6209#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,13 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style/login.css" />
     <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -725,7 +464,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5760#5764#0" expanded="false" />
+            <element signature="e#6205#6209#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,7 +476,7 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5760#5764#0" expanded="false" />
+            <element signature="e#6205#6209#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -757,32 +496,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/jquery-3.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6930">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/other/background_login.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/style/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/style/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/jquery-3.1.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/other/background_login.png" />
+    <entry file="file://$PROJECT_DIR$/static/style/login.css" />
+    <entry file="file://$PROJECT_DIR$/static/style/main.css" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mysql/connector/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-392">
@@ -806,14 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/browserMqtt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702">
-          <caret line="352" column="0" lean-forward="false" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/browserMqtt.js" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/flask/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -833,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,42 +569,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/Chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2396">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/Chart.js" />
+    <entry file="file://$PROJECT_DIR$/static/javascripts/login.js" />
+    <entry file="file://$PROJECT_DIR$/static/javascripts/main.js" />
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -904,47 +584,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <marker date="1560005558355" expanded="true" signature="757:776" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connSQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <marker date="1561200398604" expanded="true" signature="250:283" ph="select * fro... USER" />
-            <marker date="1561200398604" expanded="true" signature="250:284" ph="select * fro... USER" />
-            <marker date="1561200398604" expanded="true" signature="250:285" ph="select * fro... USER" />
-            <marker date="1561200398604" expanded="true" signature="250:286" ph="select * fro... USER" />
-            <marker date="1561200398604" expanded="true" signature="250:302" ph="select * fro... USER" />
-            <marker date="1561200398604" expanded="true" signature="250:304" ph="select * fro... USER" />
-            <marker date="1561200398604" expanded="true" signature="662:735" ph="insert into user... " />
-            <marker date="1561200398604" expanded="true" signature="662:742" ph="insert into realtimedata... " />
-            <marker date="1561200398604" expanded="true" signature="662:744" ph="insert into realtimedata... " />
-            <marker date="1561200398604" expanded="true" signature="662:765" ph="insert into realtimedata... " />
-            <marker date="1561200398604" expanded="true" signature="662:900" ph="insert into realtimedata... " />
-            <marker date="1561200398604" expanded="true" signature="662:960" ph="insert into realtimedata... " />
-            <marker date="1561200398604" expanded="true" signature="1061:1184" ph="select * dat... realTimeData" />
-            <marker date="1561200398604" expanded="true" signature="1408:1521" ph="select datat... realTimeData" />
-            <marker date="1561200398604" expanded="true" signature="1760:1838" ph="insert into realtimedata... " />
-            <marker date="1561200398604" expanded="true" signature="2048:2130" ph="select * fro... operating_log" />
-            <marker date="1561200398604" expanded="true" signature="2048:2151" ph="select optim... operating_log" />
-            <marker date="1561200398604" expanded="true" signature="2334:2435" ph="select wrtim... warning_log" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="132" column="19" lean-forward="true" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
+        <state relative-caret-position="160">
+          <caret line="189" column="37" lean-forward="false" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#5760#5764#0" expanded="false" />
+            <element signature="e#6205#6209#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connSQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1561207985151" expanded="true" signature="250:283" ph="select * fro... USER" />
+            <marker date="1561207985151" expanded="true" signature="250:284" ph="select * fro... USER" />
+            <marker date="1561207985151" expanded="true" signature="250:285" ph="select * fro... USER" />
+            <marker date="1561207985151" expanded="true" signature="250:286" ph="select * fro... USER" />
+            <marker date="1561207985151" expanded="true" signature="250:302" ph="select * fro... USER" />
+            <marker date="1561207985151" expanded="true" signature="250:304" ph="select * fro... USER" />
+            <marker date="1561207985151" expanded="true" signature="662:735" ph="insert into user... " />
+            <marker date="1561207985151" expanded="true" signature="662:742" ph="insert into realtimedata... " />
+            <marker date="1561207985151" expanded="true" signature="662:744" ph="insert into realtimedata... " />
+            <marker date="1561207985151" expanded="true" signature="662:765" ph="insert into realtimedata... " />
+            <marker date="1561207985151" expanded="true" signature="662:900" ph="insert into realtimedata... " />
+            <marker date="1561207985151" expanded="true" signature="662:960" ph="insert into realtimedata... " />
+            <marker date="1561207985151" expanded="true" signature="1061:1184" ph="select * dat... realTimeData" />
+            <marker date="1561207985151" expanded="true" signature="1418:1529" ph="select datat... realTimeData" />
+            <marker date="1561207985151" expanded="true" signature="1418:1530" ph="select datat... realTimeData" />
+            <marker date="1561207985151" expanded="true" signature="1731:1844" ph="select datat... realTimeData" />
+            <marker date="1561207985151" expanded="true" signature="2083:2161" ph="insert into realtimedata... " />
+            <marker date="1561207985151" expanded="true" signature="2371:2453" ph="select * fro... operating_log" />
+            <marker date="1561207985151" expanded="true" signature="2371:2474" ph="select optim... operating_log" />
+            <marker date="1561207985151" expanded="true" signature="2657:2758" ph="select wrtim... warning_log" />
           </folding>
         </state>
       </provider>

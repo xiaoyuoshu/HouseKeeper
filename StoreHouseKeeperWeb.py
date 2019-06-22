@@ -184,6 +184,24 @@ def getDatawx():
     return json.dumps(data)
 
 
+@app.route('/api/getDatawxbyNumber/')
+def getDatawxbyNumber():
+    c = request.args.get('count')
+    query = connSQL.getDatawxbyNumber(request.args.get('account'), c)
+    data = []
+    for d in query:
+        data.append({
+            'datatime': d[0],
+            'tem': d[1],
+            'hum': d[2],
+            'illumination': d[3],
+            'smoke': d[4],
+            'co2': d[5]
+        })
+    print(data)
+    return json.dumps(data)
+
+
 @app.route('/api/getNowDatawx/')
 def getNowDatawx():
     query = connSQL.getNowData(request.args.get('account'))
