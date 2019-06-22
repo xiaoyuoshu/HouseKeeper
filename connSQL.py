@@ -28,7 +28,7 @@ def get_password(userid):
 def newData(data):
     sqlconn = conn()
     cursor = sqlconn.cursor()
-    cursor.execute('insert into realtimedata (userid,datatime,tem,hum,illumination,smoke,co2) VALUES (%s,%s,%s,%s,%s,%s,%s)',
+    cursor.execute('insert into realTimeData (userid,datatime,tem,hum,illumination,smoke,co2) VALUES (%s,%s,%s,%s,%s,%s,%s)',
                    (data['deviceID'], data['datatime'], data['tem'], data['hum'], data['illumination'], data['smoke'], data['co2']))
     sqlconn.commit()
     cursor.close()

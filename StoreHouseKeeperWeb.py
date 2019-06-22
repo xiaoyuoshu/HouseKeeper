@@ -51,7 +51,7 @@ def main_page():
 
 
 # api
-@app.route('/api/login', methods=['POST'])
+@app.route('/api/login/', methods=['POST'])
 def login_form():
     # 接收登录表单，并创建session
     login_account = request.form['account']
@@ -72,7 +72,7 @@ def login_form():
         return json.dumps({'success': 0})
 
 
-@app.route('/api/logout',  methods=['POST'])
+@app.route('/api/logout/',  methods=['POST'])
 def logout():
     # 注销登录，清空session
     session.clear()
@@ -141,7 +141,7 @@ def getData():
     return json.dumps(data)
 
 
-@app.route('/api/getNowData')
+@app.route('/api/getNowData/')
 def getNowData():
     if session.get('logged_in') is not True:
         return json.dumps({"error": 0})

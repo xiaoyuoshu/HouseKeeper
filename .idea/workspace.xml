@@ -207,6 +207,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/style/login.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/style/main.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoreHouseKeeperWeb.py" afterPath="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connSQL.py" afterPath="$PROJECT_DIR$/connSQL.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.html" afterPath="$PROJECT_DIR$/templates/main.html" />
     </list>
@@ -236,44 +238,44 @@
       <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="612">
+              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1096#1172#0" expanded="false" />
-                <element signature="e#1246#1825#0" expanded="false" />
-                <element signature="e#2027#2447#0" expanded="false" />
-                <element signature="e#2505#2933#0" expanded="false" />
-                <element signature="e#4790#4794#0" expanded="false" />
+                <element signature="e#1247#1826#0" expanded="false" />
+                <element signature="e#2029#2449#0" expanded="false" />
+                <element signature="e#2507#2935#0" expanded="false" />
+                <element signature="e#4793#4797#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/connSQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="480">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
-                <marker date="1561189040945" expanded="true" signature="250:283" ph="select * fro... USER" />
-                <marker date="1561189040945" expanded="true" signature="250:284" ph="select * fro... USER" />
-                <marker date="1561189040945" expanded="true" signature="250:285" ph="select * fro... USER" />
-                <marker date="1561189040945" expanded="true" signature="250:286" ph="select * fro... USER" />
-                <marker date="1561189040945" expanded="true" signature="250:302" ph="select * fro... USER" />
-                <marker date="1561189040945" expanded="true" signature="250:304" ph="select * fro... USER" />
-                <marker date="1561189040945" expanded="true" signature="662:735" ph="insert into user... " />
-                <marker date="1561189040945" expanded="true" signature="662:742" ph="insert into realtimedata... " />
-                <marker date="1561189040945" expanded="true" signature="662:744" ph="insert into realtimedata... " />
-                <marker date="1561189040945" expanded="true" signature="662:765" ph="insert into realtimedata... " />
-                <marker date="1561189040945" expanded="true" signature="662:900" ph="insert into realtimedata... " />
-                <marker date="1561189040945" expanded="true" signature="662:960" ph="insert into realtimedata... " />
-                <marker date="1561189040945" expanded="true" signature="1061:1184" ph="select * dat... realTimeData" />
-                <marker date="1561189040945" expanded="true" signature="1408:1521" ph="select datat... realTimeData" />
-                <marker date="1561189040945" expanded="true" signature="1760:1838" ph="insert into realtimedata... " />
-                <marker date="1561189040945" expanded="true" signature="2048:2130" ph="select * fro... operating_log" />
-                <marker date="1561189040945" expanded="true" signature="2048:2151" ph="select optim... operating_log" />
-                <marker date="1561189040945" expanded="true" signature="2334:2435" ph="select wrtim... warning_log" />
+                <marker date="1561198179731" expanded="true" signature="250:283" ph="select * fro... USER" />
+                <marker date="1561198179731" expanded="true" signature="250:284" ph="select * fro... USER" />
+                <marker date="1561198179731" expanded="true" signature="250:285" ph="select * fro... USER" />
+                <marker date="1561198179731" expanded="true" signature="250:286" ph="select * fro... USER" />
+                <marker date="1561198179731" expanded="true" signature="250:302" ph="select * fro... USER" />
+                <marker date="1561198179731" expanded="true" signature="250:304" ph="select * fro... USER" />
+                <marker date="1561198179731" expanded="true" signature="662:735" ph="insert into user... " />
+                <marker date="1561198179731" expanded="true" signature="662:742" ph="insert into realtimedata... " />
+                <marker date="1561198179731" expanded="true" signature="662:744" ph="insert into realtimedata... " />
+                <marker date="1561198179731" expanded="true" signature="662:765" ph="insert into realtimedata... " />
+                <marker date="1561198179731" expanded="true" signature="662:900" ph="insert into realtimedata... " />
+                <marker date="1561198179731" expanded="true" signature="662:960" ph="insert into realtimedata... " />
+                <marker date="1561198179731" expanded="true" signature="1061:1184" ph="select * dat... realTimeData" />
+                <marker date="1561198179731" expanded="true" signature="1408:1521" ph="select datat... realTimeData" />
+                <marker date="1561198179731" expanded="true" signature="1760:1838" ph="insert into realtimedata... " />
+                <marker date="1561198179731" expanded="true" signature="2048:2130" ph="select * fro... operating_log" />
+                <marker date="1561198179731" expanded="true" signature="2048:2151" ph="select optim... operating_log" />
+                <marker date="1561198179731" expanded="true" signature="2334:2435" ph="select wrtim... warning_log" />
               </folding>
             </state>
           </provider>
@@ -289,7 +291,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -334,11 +336,11 @@
         <option value="$PROJECT_DIR$/connectSQL.py" />
         <option value="$PROJECT_DIR$/templates/connSQL.py" />
         <option value="$PROJECT_DIR$/static/javascripts/Chart.js" />
-        <option value="$PROJECT_DIR$/connSQL.py" />
-        <option value="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
         <option value="$PROJECT_DIR$/static/javascripts/main.js" />
         <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
+        <option value="$PROJECT_DIR$/connSQL.py" />
       </list>
     </option>
   </component>
@@ -483,7 +485,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29707113" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39853558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -533,10 +535,10 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1246#1825#0" expanded="false" />
-            <element signature="e#2027#2447#0" expanded="false" />
-            <element signature="e#2505#2933#0" expanded="false" />
-            <element signature="e#4790#4794#0" expanded="false" />
+            <element signature="e#1247#1826#0" expanded="false" />
+            <element signature="e#2029#2449#0" expanded="false" />
+            <element signature="e#2507#2935#0" expanded="false" />
+            <element signature="e#4793#4797#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,10 +573,10 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1246#1825#0" expanded="false" />
-            <element signature="e#2027#2447#0" expanded="false" />
-            <element signature="e#2505#2933#0" expanded="false" />
-            <element signature="e#4790#4794#0" expanded="false" />
+            <element signature="e#1247#1826#0" expanded="false" />
+            <element signature="e#2029#2449#0" expanded="false" />
+            <element signature="e#2507#2935#0" expanded="false" />
+            <element signature="e#4793#4797#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -616,10 +618,10 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1246#1825#0" expanded="false" />
-            <element signature="e#2027#2447#0" expanded="false" />
-            <element signature="e#2505#2933#0" expanded="false" />
-            <element signature="e#4790#4794#0" expanded="false" />
+            <element signature="e#1247#1826#0" expanded="false" />
+            <element signature="e#2029#2449#0" expanded="false" />
+            <element signature="e#2507#2935#0" expanded="false" />
+            <element signature="e#4793#4797#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -661,10 +663,10 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1246#1825#0" expanded="false" />
-            <element signature="e#2027#2447#0" expanded="false" />
-            <element signature="e#2505#2933#0" expanded="false" />
-            <element signature="e#4790#4794#0" expanded="false" />
+            <element signature="e#1247#1826#0" expanded="false" />
+            <element signature="e#2029#2449#0" expanded="false" />
+            <element signature="e#2507#2935#0" expanded="false" />
+            <element signature="e#4793#4797#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -706,10 +708,10 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1246#1825#0" expanded="false" />
-            <element signature="e#2027#2447#0" expanded="false" />
-            <element signature="e#2505#2933#0" expanded="false" />
-            <element signature="e#4790#4794#0" expanded="false" />
+            <element signature="e#1247#1826#0" expanded="false" />
+            <element signature="e#2029#2449#0" expanded="false" />
+            <element signature="e#2507#2935#0" expanded="false" />
+            <element signature="e#4793#4797#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -735,10 +737,10 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1246#1825#0" expanded="false" />
-            <element signature="e#2027#2447#0" expanded="false" />
-            <element signature="e#2505#2933#0" expanded="false" />
-            <element signature="e#4790#4794#0" expanded="false" />
+            <element signature="e#1247#1826#0" expanded="false" />
+            <element signature="e#2029#2449#0" expanded="false" />
+            <element signature="e#2507#2935#0" expanded="false" />
+            <element signature="e#4793#4797#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -750,10 +752,10 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1246#1825#0" expanded="false" />
-            <element signature="e#2027#2447#0" expanded="false" />
-            <element signature="e#2505#2933#0" expanded="false" />
-            <element signature="e#4790#4794#0" expanded="false" />
+            <element signature="e#1247#1826#0" expanded="false" />
+            <element signature="e#2029#2449#0" expanded="false" />
+            <element signature="e#2507#2935#0" expanded="false" />
+            <element signature="e#4793#4797#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -899,48 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#1096#1172#0" expanded="false" />
-            <element signature="e#1246#1825#0" expanded="false" />
-            <element signature="e#2027#2447#0" expanded="false" />
-            <element signature="e#2505#2933#0" expanded="false" />
-            <element signature="e#4790#4794#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connSQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <marker date="1561189040945" expanded="true" signature="250:283" ph="select * fro... USER" />
-            <marker date="1561189040945" expanded="true" signature="250:284" ph="select * fro... USER" />
-            <marker date="1561189040945" expanded="true" signature="250:285" ph="select * fro... USER" />
-            <marker date="1561189040945" expanded="true" signature="250:286" ph="select * fro... USER" />
-            <marker date="1561189040945" expanded="true" signature="250:302" ph="select * fro... USER" />
-            <marker date="1561189040945" expanded="true" signature="250:304" ph="select * fro... USER" />
-            <marker date="1561189040945" expanded="true" signature="662:735" ph="insert into user... " />
-            <marker date="1561189040945" expanded="true" signature="662:742" ph="insert into realtimedata... " />
-            <marker date="1561189040945" expanded="true" signature="662:744" ph="insert into realtimedata... " />
-            <marker date="1561189040945" expanded="true" signature="662:765" ph="insert into realtimedata... " />
-            <marker date="1561189040945" expanded="true" signature="662:900" ph="insert into realtimedata... " />
-            <marker date="1561189040945" expanded="true" signature="662:960" ph="insert into realtimedata... " />
-            <marker date="1561189040945" expanded="true" signature="1061:1184" ph="select * dat... realTimeData" />
-            <marker date="1561189040945" expanded="true" signature="1408:1521" ph="select datat... realTimeData" />
-            <marker date="1561189040945" expanded="true" signature="1760:1838" ph="insert into realtimedata... " />
-            <marker date="1561189040945" expanded="true" signature="2048:2130" ph="select * fro... operating_log" />
-            <marker date="1561189040945" expanded="true" signature="2048:2151" ph="select optim... operating_log" />
-            <marker date="1561189040945" expanded="true" signature="2334:2435" ph="select wrtim... warning_log" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -954,6 +914,48 @@
         <state relative-caret-position="210">
           <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1096#1172#0" expanded="false" />
+            <element signature="e#1247#1826#0" expanded="false" />
+            <element signature="e#2029#2449#0" expanded="false" />
+            <element signature="e#2507#2935#0" expanded="false" />
+            <element signature="e#4793#4797#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connSQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1561198179731" expanded="true" signature="250:283" ph="select * fro... USER" />
+            <marker date="1561198179731" expanded="true" signature="250:284" ph="select * fro... USER" />
+            <marker date="1561198179731" expanded="true" signature="250:285" ph="select * fro... USER" />
+            <marker date="1561198179731" expanded="true" signature="250:286" ph="select * fro... USER" />
+            <marker date="1561198179731" expanded="true" signature="250:302" ph="select * fro... USER" />
+            <marker date="1561198179731" expanded="true" signature="250:304" ph="select * fro... USER" />
+            <marker date="1561198179731" expanded="true" signature="662:735" ph="insert into user... " />
+            <marker date="1561198179731" expanded="true" signature="662:742" ph="insert into realtimedata... " />
+            <marker date="1561198179731" expanded="true" signature="662:744" ph="insert into realtimedata... " />
+            <marker date="1561198179731" expanded="true" signature="662:765" ph="insert into realtimedata... " />
+            <marker date="1561198179731" expanded="true" signature="662:900" ph="insert into realtimedata... " />
+            <marker date="1561198179731" expanded="true" signature="662:960" ph="insert into realtimedata... " />
+            <marker date="1561198179731" expanded="true" signature="1061:1184" ph="select * dat... realTimeData" />
+            <marker date="1561198179731" expanded="true" signature="1408:1521" ph="select datat... realTimeData" />
+            <marker date="1561198179731" expanded="true" signature="1760:1838" ph="insert into realtimedata... " />
+            <marker date="1561198179731" expanded="true" signature="2048:2130" ph="select * fro... operating_log" />
+            <marker date="1561198179731" expanded="true" signature="2048:2151" ph="select optim... operating_log" />
+            <marker date="1561198179731" expanded="true" signature="2334:2435" ph="select wrtim... warning_log" />
+          </folding>
         </state>
       </provider>
     </entry>
