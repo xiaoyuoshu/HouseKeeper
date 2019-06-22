@@ -50,7 +50,7 @@ def main_page():
     return render_template('main.html', userid=session.get('account'))
 
 
-# api
+# api for web
 @app.route('/api/login/', methods=['POST'])
 def login_form():
     # 接收登录表单，并创建session
@@ -83,6 +83,8 @@ def logout():
 
 @app.route('/api/log/operating/')
 def operating_log():
+    if session.get('logged_in') is not True:
+        return json.dumps({"error": 0})
     query = connSQL.getOP(session.get('account'))
     data = []
     for d in query:
@@ -102,6 +104,8 @@ def operating_log():
 
 @app.route('/api/log/warning/')
 def warning_log():
+    if session.get('logged_in') is not True:
+        return json.dumps({"error": 0})
     query = connSQL.getWR(session.get('account'))
     data = []
     for d in query:
@@ -121,6 +125,8 @@ def warning_log():
 
 @app.route('/api/getData/')
 def getData():
+    if session.get('logged_in') is not True:
+        return json.dumps({"error": 0})
     t = request.args.get('time')
     query = connSQL.getData(session.get('account'), t)
     data = []
@@ -139,7 +145,44 @@ def getData():
 
 @app.route('/api/getNowData/')
 def getNowData():
+    if session.get('logged_in') is not True:
+        return json.dumps({"error": 0})
     query = connSQL.getNowData(session.get('account'))
+    data = []
+    for d in query:
+        data.append({
+            'datatime': d[0],
+            'tem': d[1],
+            'hum': d[2],
+            'illumination': d[3],
+            'smoke': d[4],
+            'co2': d[5]
+        })
+    return json.dumps(data)
+
+
+# api for wx
+@app.route('/api/getDatawx/')
+def getData():
+    t = request.args.get('time')
+    query = connSQL.getData(request.args.get('account'), t)
+    data = []
+    for d in query:
+        data.append({
+            'datatime': d[0],
+            'tem': d[1],
+            'hum': d[2],
+            'illumination': d[3],
+            'smoke': d[4],
+            'co2': d[5]
+        })
+    print(data)
+    return json.dumps(data)
+
+
+@app.route('/api/getNowDatawx/')
+def getNowData():
+    query = connSQL.getNowData(request.args.get('account'))
     data = []
     for d in query:
         data.append({
