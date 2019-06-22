@@ -2,210 +2,210 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b2ae6a-616f-4903-ad42-4c44712303ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/aes-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/aes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/cipher-core-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/cipher-core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/core-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/enc-base64-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/enc-base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/enc-utf16-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/enc-utf16.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/evpkdf-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/evpkdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/format-hex-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/format-hex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/hmac-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/hmac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/lib-typedarrays-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/lib-typedarrays.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/md5-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/mode-cfb-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/mode-cfb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/mode-ctr-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/mode-ctr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/mode-ecb-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/mode-ecb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/mode-ofb-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/mode-ofb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-ansix923-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-ansix923.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-iso10126-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-iso10126.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-iso97971-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-iso97971.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-nopadding-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-nopadding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-zeropadding-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pad-zeropadding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pbkdf2-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/pbkdf2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/rabbit-legacy-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/rabbit-legacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/rabbit-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/rabbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/rc4-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/rc4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/ripemd160-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/ripemd160.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha1-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha224-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha224.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha256-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha256.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha3-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha384-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha384.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha512-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/sha512.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/tripledes-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/tripledes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/x64-core-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/components/x64-core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/aes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/hmac-md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/hmac-ripemd160.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/hmac-sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/hmac-sha224.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/hmac-sha256.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/hmac-sha3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/hmac-sha384.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/hmac-sha512.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/md5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/pbkdf2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/rabbit-legacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/rabbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/rc4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/ripemd160.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/sha224.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/sha256.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/sha3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/sha384.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/sha512.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/CryptoJS/rollups/tripledes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/javascripts/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/javascripts/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/javascripts/browserMqtt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/javascripts/jquery-3.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/javascripts/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/javascripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/layui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/layui.mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/modules/code.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/modules/laydate/default/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/font/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/font/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/font/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/font/iconfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/images/face/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/layedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/laypage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/laytpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/rate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/transfer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/lay/modules/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/layui.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/layui/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/other/background_login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/style/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/style/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/aes-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/aes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/cipher-core-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/cipher-core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/core-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/enc-base64-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/enc-base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/enc-utf16-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/enc-utf16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/evpkdf-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/evpkdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/format-hex-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/format-hex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/hmac-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/hmac.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/lib-typedarrays-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/lib-typedarrays.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/md5-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-cfb-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-cfb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ctr-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ctr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ecb-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ecb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ofb-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/mode-ofb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-ansix923-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-ansix923.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-iso10126-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-iso10126.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-iso97971-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-iso97971.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-nopadding-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-nopadding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-zeropadding-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pad-zeropadding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pbkdf2-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/pbkdf2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rabbit-legacy-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rabbit-legacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rabbit-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rabbit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rc4-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/rc4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/ripemd160-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/ripemd160.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha1-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha224-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha224.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha256-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha256.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha3-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha384-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha384.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha512-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/sha512.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/tripledes-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/tripledes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/x64-core-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/components/x64-core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/aes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-ripemd160.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha224.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha256.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha384.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/hmac-sha512.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/pbkdf2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/rabbit-legacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/rabbit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/rc4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/ripemd160.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha224.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha256.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha384.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/sha512.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/CryptoJS/rollups/tripledes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/browserMqtt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/jquery-3.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/javascripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/layui.mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/laydate/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/font/iconfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/images/face/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/layedit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/laytpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/rate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/transfer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/lay/modules/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/layui.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/layui/layui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/other/background_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/style/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticweb/style/main.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.html" afterPath="$PROJECT_DIR$/templates/main.html" />
@@ -279,21 +279,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="240">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -401,7 +401,7 @@
             <path>
               <item name="StoreHouseKeeperWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="StoreHouseKeeperWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="staticweb" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StoreHouseKeeperWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -941,18 +941,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="210">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
