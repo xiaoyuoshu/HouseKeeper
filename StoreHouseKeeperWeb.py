@@ -249,15 +249,16 @@ def on_publish(client, usedata, mid):
     pass
 
 
+# 监听所有ip，端口设置为5000
+client = mqtt.Client()
+client.on_connect = on_connect
+client.on_message = on_message
+client.on_publish = on_publish
+client.username_pw_set('admin', 'admin')
+client.connect("chuche.xyz", 1883, 600)
+client.subscribe('realTimeData/#', 2)
+client.subscribe('controlAir/#', 2)
+client.loop_start()
+
 if __name__ == '__main__':
-    # 监听所有ip，端口设置为5000
-    client = mqtt.Client()
-    client.on_connect = on_connect
-    client.on_message = on_message
-    client.on_publish = on_publish
-    client.username_pw_set('admin', 'admin')
-    client.connect("chuche.xyz", 1883, 600)
-    client.subscribe('realTimeData/#', 2)
-    client.subscribe('controlAir/#', 2)
-    client.loop_start()
     app.run("0.0.0.0", 10016)
