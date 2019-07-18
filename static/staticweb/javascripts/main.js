@@ -29,9 +29,106 @@ function uint82str(array) {
     return out;
 }
 
+function newDate(days) {
+	return moment().add(days, 'd').toDate();
+}
+
+function newDateString(days) {
+	return moment().add(days, 'd').format(timeFormat);
+}
+
+var timeFormat = 'MM/DD/YYYY HH:mm';
+
+
 layui.use(['element','table','layer'], function(){
+    window.chartColors = {
+        red: 'rgb(255, 99, 132)',
+        orange: 'rgb(255, 159, 64)',
+        yellow: 'rgb(255, 205, 86)',
+        green: 'rgb(75, 192, 192)',
+        blue: 'rgb(54, 162, 235)',
+        purple: 'rgb(153, 102, 255)',
+        grey: 'rgb(201, 203, 207)'
+    };
+    var color = Chart.helpers.color;
     var table = layui.table;
     var form = layui.form;
+    var ctx = document.getElementById('mychart').getContext('2d');
+    var chart;
+    var chartConfig = {
+        type: 'line',
+		data: {
+			datasets: [{
+				label: 'Dataset with string point data',
+				backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+				borderColor: window.chartColors.red,
+				fill: false,
+				data: [{
+					x: newDateString(0),
+					y: 158
+				}, {
+					x: newDateString(2),
+					y: 154
+				}, {
+					x: newDateString(4),
+					y: 187
+				}, {
+					x: newDateString(5),
+					y: 165
+				}],
+			}, {
+				label: 'Dataset with date object point data',
+				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+				borderColor: window.chartColors.blue,
+				fill: false,
+				data: [{
+					x: newDate(0),
+					y: 254
+				}, {
+					x: newDate(2),
+					y: 135
+				}, {
+					x: newDate(4),
+					y: 165
+				}, {
+					x: newDate(5),
+					y: 187
+				}]
+			}]
+		},
+		options: {
+			responsive: true,
+			title: {
+				display: true,
+				text: 'Chart.js Time Point Data'
+			},
+			scales: {
+				xAxes: [{
+					type: 'time',
+					display: true,
+					scaleLabel: {
+						display: true,
+						labelString: 'Date'
+					},
+					ticks: {
+						major: {
+							fontStyle: 'bold',
+							fontColor: '#FF0000'
+						}
+					}
+				}],
+				yAxes: [{
+					display: true,
+					scaleLabel: {
+						display: true,
+						labelString: 'value'
+					}
+				}]
+			}
+		}
+    }
+    var chartData = [];
+    var chartDate = [];
 
     //mqtt
     var userid = $('#userid').text()
@@ -89,7 +186,6 @@ layui.use(['element','table','layer'], function(){
     })
     //刷新日志
     $('#refresh_table').click(function () {
-
         if ('1' === $('#op_wr').text()) {
             $('#newop').hide()
             table.render({
@@ -170,6 +266,22 @@ layui.use(['element','table','layer'], function(){
           //do something
         });
         return false;
-    })
+    });
+    //初始化图表
+    $('#temChart').click(function () {
+        $.ajax({
+            url: '/api/getData?time=0',
+            dataType: 'json',
+            success: function (data) {
+                for(var t = data.length - 1;t >= 0; t--){
+                    var date = new Date(data[t].datatime);
+                    chartDate.push([date.getFullYear(), date.getMonth() + 1, date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds()].join('/'));
+                    chartData.push(data[t].tem);
+                }
+                chart = new Chart(ctx, chartConfig);
+            }
+        })
+    });
+    $('#temChart').click();
 });
 

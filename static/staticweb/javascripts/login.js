@@ -4,7 +4,7 @@ layui.use(['form','layer'], function(){
     form.on('submit(login_form)', function(data){
         console.log(data)
         $.ajax({
-            url: '/api/login',
+            url: '/api/login/',
             data: {
                 account:data.field.account,
                 password:CryptoJS.SHA1(data.field.password).toString()

@@ -4,7 +4,7 @@ import mysql.connector
 
 
 def conn():
-    return mysql.connector.connect(user='jin', password='jin19980929', database='storehousekeeper')
+    return mysql.connector.connect(user='root', password='xiaoyuoshu', database='storehousekeeper')
 
 
 def get_password(userid):
