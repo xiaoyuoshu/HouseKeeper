@@ -37,7 +37,6 @@ function newDateString(days) {
 	return moment().add(days, 'd').format(timeFormat);
 }
 
-var timeFormat = 'MM/DD/YYYY HH:mm';
 
 
 layui.use(['element','table','layer'], function(){
@@ -50,89 +49,16 @@ layui.use(['element','table','layer'], function(){
         purple: 'rgb(153, 102, 255)',
         grey: 'rgb(201, 203, 207)'
     };
-    var color = Chart.helpers.color;
     var table = layui.table;
     var form = layui.form;
     var ctx = document.getElementById('mychart').getContext('2d');
     var chart;
-    var chartConfig = {
-        type: 'line',
-		data: {
-			datasets: [{
-				label: 'Dataset with string point data',
-				backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.red,
-				fill: false,
-				data: [{
-					x: newDateString(0),
-					y: 158
-				}, {
-					x: newDateString(2),
-					y: 154
-				}, {
-					x: newDateString(4),
-					y: 187
-				}, {
-					x: newDateString(5),
-					y: 165
-				}],
-			}, {
-				label: 'Dataset with date object point data',
-				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.blue,
-				fill: false,
-				data: [{
-					x: newDate(0),
-					y: 254
-				}, {
-					x: newDate(2),
-					y: 135
-				}, {
-					x: newDate(4),
-					y: 165
-				}, {
-					x: newDate(5),
-					y: 187
-				}]
-			}]
-		},
-		options: {
-			responsive: true,
-			title: {
-				display: true,
-				text: 'Chart.js Time Point Data'
-			},
-			scales: {
-				xAxes: [{
-					type: 'time',
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'Date'
-					},
-					ticks: {
-						major: {
-							fontStyle: 'bold',
-							fontColor: '#FF0000'
-						}
-					}
-				}],
-				yAxes: [{
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'value'
-					}
-				}]
-			}
-		}
-    }
     var chartData = [];
     var chartDate = [];
 
     //mqtt
     var userid = $('#userid').text()
-    var client = mqtt.connect('ws://chuche.xyz:8083/mqtt',{
+    var client = mqtt.connect('wss://chuche.xyz:8084/mqtt',{
         username: "admin",
         password: "admin"
     })
@@ -284,4 +210,82 @@ layui.use(['element','table','layer'], function(){
     });
     $('#temChart').click();
 });
+var timeFormat = 'MM/DD/YYYY HH:mm';
+var color = Chart.helpers.color;
+var chartConfig = {
+        type: 'line',
+		data: {
+			datasets: [{
+				label: 'Dataset with string point data',
+				backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+				borderColor: window.chartColors.red,
+				fill: false,
+				data: [{
+					x: newDateString(0),
+					y: 158
+				}, {
+					x: newDateString(2),
+					y: 154
+				}, {
+					x: newDateString(4),
+					y: 187
+				}, {
+					x: newDateString(5),
+					y: 165
+				}],
+			}, {
+				label: 'Dataset with date object point data',
+				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+				borderColor: window.chartColors.blue,
+				fill: false,
+				data: [{
+					x: newDate(0),
+					y: 254
+				}, {
+					x: newDate(2),
+					y: 135
+				}, {
+					x: newDate(4),
+					y: 165
+				}, {
+					x: newDate(5),
+					y: 187
+				}]
+			}]
+		},
+		options: {
+			responsive: true,
+			title: {
+				display: true,
+				text: 'Chart.js Time Point Data'
+			},
+			scales: {
+				xAxes: [{
+					type: 'time',
+					display: true,
+					scaleLabel: {
+						display: true,
+						labelString: 'Date'
+					},
+					ticks: {
+						major: {
+							fontStyle: 'bold',
+							fontColor: '#FF0000'
+						}
+					}
+				}],
+				yAxes: [{
+					display: true,
+					scaleLabel: {
+						display: true,
+						labelString: 'value'
+					}
+				}]
+			}
+		}
+    }
 
+window.onload = function() {
+	var ctx = document.getElementById('mychart').getContext('2d');
+	window.myLine = new Chart(ctx, chartConfig);
+};
