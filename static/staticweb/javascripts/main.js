@@ -51,7 +51,6 @@ layui.use(['element','table','layer'], function(){
     };
     var table = layui.table;
     var form = layui.form;
-    var ctx = document.getElementById('mychart').getContext('2d');
     var chart;
     var chartData = [];
     var chartDate = [];
