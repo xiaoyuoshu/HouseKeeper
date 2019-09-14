@@ -57,7 +57,7 @@ layui.use(['element','table','layer'], function(){
 
     //mqtt
     var userid = $('#userid').text()
-    var client = mqtt.connect('wss://chuche.xyz:8084/mqtt',{
+    var client = mqtt.connect('wss://chuche.xyz/mqtt',{
         username: "admin",
         password: "admin"
     })
