@@ -65,7 +65,7 @@ function getImage_C(){
 		console.log(res.data.update_at);//时间戳
         if(res.errno==0){
             image_url = res.data.current_value.index;
-            if(window.image_C_time!=res.data.update_at){
+            if(true){
                 $.ajax({
                     url: '/image/bindata/'+image_url,
                     type: 'get',
@@ -92,7 +92,7 @@ function getImage_C(){
 
 
 layui.use(['element','table','layer'], function(){
-    window.setInterval(getImage_C,1000);
+    window.setInterval(getImage_C,10000);
     window.chartColors = {
         red: 'rgb(255, 99, 132)',
         orange: 'rgb(255, 159, 64)',
