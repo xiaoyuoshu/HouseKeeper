@@ -183,6 +183,25 @@ def getDatawx():
     print(data)
     return json.dumps(data)
 
+@app.route('/api/getDatabyNumber/')
+def getDatabyNumber():
+    if session.get('logged_in') is not True:
+        return json.dumps({"error": 0})
+    c = request.args.get('count')
+    query = connSQL.getDatawxbyNumber(session.get('account'), c)
+    data = []
+    for d in query:
+        data.append({
+            'datatime': d[0],
+            'tem': d[1],
+            'hum': d[2],
+            'illumination': d[3],
+            'smoke': d[4],
+            'co2': d[5]
+        })
+    print(data)
+    return json.dumps(data)
+
 
 @app.route('/api/getDatawxbyNumber/')
 def getDatawxbyNumber():

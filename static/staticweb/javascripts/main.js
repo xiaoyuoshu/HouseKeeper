@@ -37,9 +37,62 @@ function newDateString(days) {
 	return moment().add(days, 'd').format(timeFormat);
 }
 
+function arrayBufferToBase64( buffer ) {
+    var binary = '';
+    var bytes = new Uint8Array(buffer);
+    var len = bytes.byteLength;
+    for (var i = 0; i < len; i++) {
+        binary += String.fromCharCode(bytes[i]);
+    }
+    return window.btoa(binary);
+}
+
+function getImage_C(){
+    $.ajax({
+    url: '/image/devices/38723967/datastreams/image',
+    type: 'get',
+    data:{
+		count: 5,
+		account: 'whitenoise1'
+	},
+	headers: {
+        'Content-Type': 'application/json',
+        'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+    },
+    success: function (res) {
+		console.log(res.errno);//0则无问题
+        console.log(res.data.currentvalue.index);//image_url+'https://api.heclouds.com/bindata/'
+		console.log(res.data.update_at);//时间戳
+        if(res.errno==0){
+            image_url = res.data.currentvalue.index;
+            if(window.image_C_time!=res.data.update_at){
+                $.ajax({
+                    url: '/image/bindata/'+image_url,
+                    type: 'get',
+                    data:{
+                        count: 5,
+                        account: 'whitenoise1'
+                    },
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+                    },
+                    responseType: 'arraybuffer',
+                    success: function (res) {
+                        var im = arrayBufferToBase64(res);
+                        $('image_C').attr('src','data:image/jpg;'+im);
+                    }
+                });
+            }
+            window.image_C_time = res.data.update_at;
+        }
+    }
+});
+}
 
 
 layui.use(['element','table','layer'], function(){
+    window.setInterval(getImage_C,1000);
     window.chartColors = {
         red: 'rgb(255, 99, 132)',
         orange: 'rgb(255, 159, 64)',
@@ -49,12 +102,51 @@ layui.use(['element','table','layer'], function(){
         purple: 'rgb(153, 102, 255)',
         grey: 'rgb(201, 203, 207)'
     };
+    var chartYtype = 0;
     var table = layui.table;
     var form = layui.form;
-    var chart;
-    var chartData = [];
-    var chartDate = [];
-
+    var Chartdata = [];
+    var myChart = echarts.init(document.getElementById('Chart'));
+    var realTimeX = [];
+    realTimeX.unshift('现在')
+    for(var i = 1;i < 90;i++){
+        realTimeX.unshift(i*2+'s前')
+    }
+    option = {
+        title: {
+            text: '表格'
+        },
+        xAxis: {
+            type: 'category',
+            data: realTimeX
+        },
+        yAxis: {
+            type: 'value',
+            min: function(value) {
+                return value.min - (value.max-value.min)*0.5;
+            },
+            max: function(value) {
+                return value.max + (value.max-value.min)*0.5;
+            }
+        },
+        tooltip: {
+            trigger: 'axis',
+            formatter: function (params) {
+                console.log(params)
+                return params[0].name + "：" + params[0].data
+            },
+            axisPointer: {
+                animation: false
+            }
+        },
+        series: [{
+            data: Chartdata,
+            type: 'line',
+            smooth: true
+        }],
+        animation: false
+    };
+    myChart.setOption(option);
     //mqtt
     var userid = $('#userid').text()
     var client = mqtt.connect('wss://chuche.xyz/mqtt',{
@@ -69,6 +161,26 @@ layui.use(['element','table','layer'], function(){
         if(topic.indexOf('realTimeData2Web') != -1){
             //实时数据
             var data = JSON.parse(uint82str(payload));
+            if(Chartdata.length>90){
+                Chartdata.shift()
+            }
+            switch (chartYtype){
+                case 0:Chartdata.push(data.tem);
+                break;
+                case 1:Chartdata.push(data.hum);
+                break;
+                case 2:Chartdata.push(data.smoke);
+                break;
+                case 3:Chartdata.push(data.illumination);
+                break;
+                case 4:Chartdata.push(data.co2);
+                break;
+            }
+            myChart.setOption({
+                series: [{
+                    data: Chartdata
+                }]
+            });
             $('#now #tem').text(data.tem);
             $('#now #hum').text(data.hum);
             $('#now #illumination').text(data.illumination);
@@ -91,7 +203,7 @@ layui.use(['element','table','layer'], function(){
     $('#logout').click(function () {
         console.log('logout')
         $.ajax({
-            url: '/api/logout',
+            url: '/api/logout/',
             type: 'post',
             dataType: 'json',
             success: function (data) {
@@ -194,97 +306,131 @@ layui.use(['element','table','layer'], function(){
     });
     //初始化图表
     $('#temChart').click(function () {
+        chartYtype = 0;
         $.ajax({
-            url: '/api/getData?time=0',
+            url: '/api/getDatabyNumber/',
+            data: {
+                count:90
+            },
+            type: 'get',
             dataType: 'json',
             success: function (data) {
-                for(var t = data.length - 1;t >= 0; t--){
-                    var date = new Date(data[t].datatime);
-                    chartDate.push([date.getFullYear(), date.getMonth() + 1, date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds()].join('/'));
-                    chartData.push(data[t].tem);
+                Chartdata = [];
+                for(var i = 89;i>=0;i--){
+                    Chartdata.push(data[i].tem);
                 }
-                chart = new Chart(ctx, chartConfig);
+                myChart.setOption({
+                    title: {
+                        text: '温度'
+                    },
+                    series: [{
+                        data: Chartdata
+                    }]
+                });
             }
         })
-    });
+    })
+    $('#humChart').click(function () {
+        chartYtype = 1;
+        $.ajax({
+            url: '/api/getDatabyNumber/',
+            data: {
+                count:90
+            },
+            type: 'get',
+            dataType: 'json',
+            success: function (data) {
+                Chartdata = [];
+                for(var i = 89;i>=0;i--){
+                    Chartdata.push(data[i].hum);
+                }
+                myChart.setOption({
+                    title: {
+                        text: '湿度'
+                    },
+                    series: [{
+                        data: Chartdata
+                    }]
+                });
+            }
+        })
+    })
+    $('#smokeChart').click(function () {
+        chartYtype = 2;
+        $.ajax({
+            url: '/api/getDatabyNumber/',
+            data: {
+                count:90
+            },
+            type: 'get',
+            dataType: 'json',
+            success: function (data) {
+                Chartdata = [];
+                for(var i = 89;i>=0;i--){
+                    Chartdata.push(data[i].smoke);
+                }
+                myChart.setOption({
+                    title: {
+                        text: '烟雾浓度'
+                    },
+                    series: [{
+                        data: Chartdata
+                    }]
+                });
+            }
+        })
+    })
+    $('#illuminationChart').click(function () {
+        chartYtype = 3;
+        $.ajax({
+            url: '/api/getDatabyNumber/',
+            data: {
+                count:90
+            },
+            type: 'get',
+            dataType: 'json',
+            success: function (data) {
+                Chartdata = [];
+                for(var i = 89;i>=0;i--){
+                    Chartdata.push(data[i].illumination);
+                }
+                myChart.setOption({
+                    title: {
+                        text: '光照强度'
+                    },
+                    series: [{
+                        data: Chartdata
+                    }]
+                });
+            }
+        })
+    })
+    $('#co2Chart').click(function () {
+        chartYtype = 4;
+        $.ajax({
+            url: '/api/getDatabyNumber/',
+            data: {
+                count:90
+            },
+            type: 'get',
+            dataType: 'json',
+            success: function (data) {
+                Chartdata = [];
+                for(var i = 89;i>=0;i--){
+                    Chartdata.push(data[i].co2);
+                }
+                myChart.setOption({
+                    title: {
+                        text: '大气压强'
+                    },
+                    series: [{
+                        data: Chartdata
+                    }]
+                });
+            }
+        })
+    })
     $('#temChart').click();
 });
 var timeFormat = 'MM/DD/YYYY HH:mm';
-var color = Chart.helpers.color;
-var chartConfig = {
-        type: 'line',
-		data: {
-			datasets: [{
-				label: 'Dataset with string point data',
-				backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.red,
-				fill: false,
-				data: [{
-					x: newDateString(0),
-					y: 158
-				}, {
-					x: newDateString(2),
-					y: 154
-				}, {
-					x: newDateString(4),
-					y: 187
-				}, {
-					x: newDateString(5),
-					y: 165
-				}],
-			}, {
-				label: 'Dataset with date object point data',
-				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.blue,
-				fill: false,
-				data: [{
-					x: newDate(0),
-					y: 254
-				}, {
-					x: newDate(2),
-					y: 135
-				}, {
-					x: newDate(4),
-					y: 165
-				}, {
-					x: newDate(5),
-					y: 187
-				}]
-			}]
-		},
-		options: {
-			responsive: true,
-			title: {
-				display: true,
-				text: 'Chart.js Time Point Data'
-			},
-			scales: {
-				xAxes: [{
-					type: 'time',
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'Date'
-					},
-					ticks: {
-						major: {
-							fontStyle: 'bold',
-							fontColor: '#FF0000'
-						}
-					}
-				}],
-				yAxes: [{
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'value'
-					}
-				}]
-			}
-		}
-    }
 
-window.onload = function() {
-	var ctx = document.getElementById('mychart').getContext('2d');
-	window.myLine = new Chart(ctx, chartConfig);
-};
