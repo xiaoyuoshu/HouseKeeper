@@ -37,16 +37,6 @@ function newDateString(days) {
 	return moment().add(days, 'd').format(timeFormat);
 }
 
-function arrayBufferToBase64( buffer ) {
-    var binary = '';
-    var bytes = new Uint8Array(buffer);
-    var len = bytes.byteLength;
-    for (var i = 0; i < len; i++) {
-        binary += String.fromCharCode(bytes[i]);
-    }
-    return window.btoa(binary);
-}
-
 function getImage_C(){
     $.ajax({
     url: '/image/devices/38723967/datastreams/image',
@@ -79,7 +69,7 @@ function getImage_C(){
                     },
                     responseType: 'arraybuffer',
                     success: function (res) {
-                        var im = arrayBufferToBase64(res);
+                        var im = btoa(String.fromCharCode.apply(null, new Uint8Array(res)));
                         console.log(im);
                         $('#image_C').attr('src','data:image/png;base64,'+im);
                     }
