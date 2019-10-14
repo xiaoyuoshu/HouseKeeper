@@ -64,7 +64,7 @@ function getImage_C(){
         console.log(res.data.current_value.index);//image_url+'https://api.heclouds.com/bindata/'
 		console.log(res.data.update_at);//时间戳
         if(res.errno==0){
-            image_url = res.data.currentvalue.index;
+            image_url = res.data.current_value.index;
             if(window.image_C_time!=res.data.update_at){
                 $.ajax({
                     url: '/image/bindata/'+image_url,
