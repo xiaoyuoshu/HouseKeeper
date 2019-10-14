@@ -80,6 +80,7 @@ function getImage_C(){
                     responseType: 'arraybuffer',
                     success: function (res) {
                         var im = arrayBufferToBase64(res);
+                        console.log(im);
                         $('#image_C').attr('src','data:image/png;base64,'+im);
                     }
                 });
