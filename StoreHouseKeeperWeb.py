@@ -180,7 +180,6 @@ def getDatawx():
             'smoke': d[4],
             'co2': d[5]
         })
-    print(data)
     return json.dumps(data)
 
 @app.route('/api/getDatabyNumber/')
@@ -199,7 +198,6 @@ def getDatabyNumber():
             'smoke': d[4],
             'co2': d[5]
         })
-    print(data)
     return json.dumps(data)
 
 
@@ -217,7 +215,6 @@ def getDatawxbyNumber():
             'smoke': d[4],
             'co2': d[5]
         })
-    print(data)
     return json.dumps(data)
 
 

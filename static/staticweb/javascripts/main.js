@@ -61,7 +61,7 @@ function getImage_C(){
     },
     success: function (res) {
 		console.log(res.errno);//0则无问题
-        console.log(res.data.currentvalue.index);//image_url+'https://api.heclouds.com/bindata/'
+        console.log(res.data.current_value.index);//image_url+'https://api.heclouds.com/bindata/'
 		console.log(res.data.update_at);//时间戳
         if(res.errno==0){
             image_url = res.data.currentvalue.index;
