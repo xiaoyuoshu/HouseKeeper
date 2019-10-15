@@ -460,7 +460,7 @@ layui.use(['element','table','layer'], function(){
                                 title: '可疑人员捕捉',
                                 offset: 'auto',
                                 id: 'layerDemo' + 0,
-                                content: '<imgsrc="data:image/png;base64,'+arraybuffer+'" style="width: 100%;height: auto;"></img>',
+                                content: '<img src="data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer)+'" style="width: 100%;height: auto;"></img>',
                                 btn: ['确认'],
                                 btnAlign: 'c',
                                 shade: 0,
