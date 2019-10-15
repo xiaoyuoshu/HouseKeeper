@@ -37,53 +37,57 @@ function newDateString(days) {
 	return moment().add(days, 'd').format(timeFormat);
 }
 
+function transformArrayBufferToBase64 (buffer) {
+    var binary = '';
+    var bytes = new Uint8Array(buffer);
+    for (var len = bytes.byteLength, i = 0; i < len; i++) {
+        binary += String.fromCharCode(bytes[i]);
+    }
+    return window.btoa(binary);
+}
+
 function getImage_C(){
     $.ajax({
-    url: '/image/devices/38723967/datastreams/image',
-    type: 'get',
-    data:{
-		count: 5,
-		account: 'whitenoise1'
-	},
-	headers: {
-        'Content-Type': 'application/json',
-        'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
-    },
-    success: function (res) {
-		console.log(res.errno);//0则无问题
-        console.log(res.data.current_value.index);//image_url+'https://api.heclouds.com/bindata/'
-		console.log(res.data.update_at);//时间戳
-        if(res.errno==0){
-            image_url = res.data.current_value.index;
-            if(true){
-                $.ajax({
-                    url: '/image/bindata/'+image_url,
-                    type: 'get',
-                    data:{
-                        count: 5,
-                        account: 'whitenoise1'
-                    },
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
-                    },
-                    responseType: 'arraybuffer',
-                    success: function (res) {
-                        var im = btoa(String.fromCharCode.apply(null, new Uint8Array(res)));
-                        console.log(im);
-                        $('#image_C').attr('src','data:image/png;base64,'+im);
-                    }
-                });
+        url: '/image/devices/38723967/datastreams/image',
+        type: 'get',
+        data:{
+            count: 5,
+            account: 'whitenoise1'
+        },
+        headers: {
+            'Content-Type': 'application/json',
+            'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+        },
+        success: function (res) {
+            console.log(res.errno);//0则无问题
+            console.log(res.data.current_value.index);//image_url+'https://api.heclouds.com/bindata/'
+            console.log(res.data.update_at);//时间戳
+            if(res.errno==0){
+                image_url = res.data.current_value.index;
+                if(true){
+                    fetch('/image/bindata/'+'38723967_1570963044357_image',{
+                        method: 'get',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+                        },
+                        responseType: 'arraybuffer'
+                    }).then(res => {
+                        return res.arrayBuffer();
+                    }).then(arraybuffer => {
+
+                        $('#image_C').attr('src','data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer));
+                    });
+                }
+                window.image_C_time = res.data.update_at;
             }
-            window.image_C_time = res.data.update_at;
         }
-    }
-});
+    });
 }
 
 
 layui.use(['element','table','layer'], function(){
-    window.setInterval(getImage_C,10000);
+    window.setInterval(getImage_C,2000);
     window.chartColors = {
         red: 'rgb(255, 99, 132)',
         orange: 'rgb(255, 159, 64)',
