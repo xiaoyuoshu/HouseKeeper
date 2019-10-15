@@ -65,7 +65,7 @@ function getImage_C(){
             if(res.errno==0){
                 image_url = res.data.current_value.index;
                 if(true){
-                    fetch('/image/bindata/'+'38723967_1570963044357_image',{
+                    fetch('/image/bindata/'+res.data.current_value.index,{
                         method: 'get',
                         headers: {
                             'Content-Type': 'application/json',
@@ -426,6 +426,55 @@ layui.use(['element','table','layer'], function(){
         })
     })
     $('#temChart').click();
+    
+    //查看可疑人员
+    $('#show_catch_image').click(function () {
+        $.ajax({
+            url: '/image/devices/38723967/datastreams/image1',
+            type: 'get',
+            data:{
+                count: 5,
+                account: 'whitenoise1'
+            },
+            headers: {
+                'Content-Type': 'application/json',
+                'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+            },
+            success: function (res) {
+                console.log(res.errno);//0则无问题
+                if(res.errno==0){
+                    image_url = res.data.current_value.index;
+                    if(true){
+                        fetch('/image/bindata/'+res.data.current_value.index,{
+                            method: 'get',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+                            },
+                            responseType: 'arraybuffer'
+                        }).then(res => {
+                            return res.arrayBuffer();
+                        }).then(arraybuffer => {
+                            $('#image_C').attr('src','data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer));
+                            layer.open({
+                                type: 1,
+                                title: '可疑人员捕捉',
+                                offset: 'auto',
+                                id: 'layerDemo' + 0,
+                                content: '<img id="image_C" src="data:image/png;base64,'+arraybuffer+'" style="width: 100%;height: auto;"></img>',
+                                btn: ['确认'],
+                                btnAlign: 'c',
+                                shade: 0,
+                                yes: function(){
+                                    layer.closeAll();
+                                }
+                            });
+                        });
+                    }
+                }
+            }
+        });
+    })
 });
 var timeFormat = 'MM/DD/YYYY HH:mm';
 

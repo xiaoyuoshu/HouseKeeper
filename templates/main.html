@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../static/staticweb/style/main.css?t=1.59">
 {#  <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video-js.min.css" rel="stylesheet">#}
   <script src="../static/staticweb/javascripts/jquery-3.1.1.min.js"></script>
-  <script src="../static/staticweb/javascripts/main.js?t=1.60"></script>
+  <script src="../static/staticweb/javascripts/main.js?t=1.64"></script>
   <script src="../static/staticweb/javascripts/browserMqtt.js"></script>
   <script src="../static/staticweb/javascripts/echarts.min.js"></script>
 {#  <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video.min.js"></script>#}
@@ -47,10 +47,12 @@
     </div>
     <div class="layui-col-md1"></div>
     <div class="layui-col-md7 layui-col-lg-offset1">
-      <div><img id="image_C" src="../static/staticweb/other/lujing.png"style="width: 866px;height: 650px;-webkit-background-size:cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;"></img></div>
+      <div>
+        <img id="image_C"style="width: 100%;height: auto;"></img>
+      </div>
     </div>
     <div class="layui-col-md3">
-      <div class="layui-card" style="height: 350px">
+      <div class="layui-card" style="height: 340px">
         <div class="layui-card-header">当前环境信息</div>
         <div class="layui-card-body">
           <table class="layui-table" lay-size="lg" style="margin-top: 15px">
@@ -68,7 +70,7 @@
           </table>
         </div>
       </div>
-      <div class="layui-card" style="height: 388px;margin-bottom: 0">
+      <div class="layui-card" style="height: 230px">
         <div class="layui-card-header">空调控制</div>
         <div class="layui-card-body">
           <form class="layui-form" lay-filter="aircontrol">
@@ -92,6 +94,12 @@
               </div>
             </div>
           </form>
+        </div>
+      </div>
+      <div class="layui-card" style="height: 150px;margin-bottom: 0">
+        <div class="layui-card-header">其他信息</div>
+        <div class="layui-card-body">
+          <button id="show_catch_image" type="button" class="layui-btn">查看可疑人员</button>
         </div>
       </div>
     </div>
