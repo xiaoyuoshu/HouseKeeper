@@ -455,13 +455,12 @@ layui.use(['element','table','layer'], function(){
                         }).then(res => {
                             return res.arrayBuffer();
                         }).then(arraybuffer => {
-                            $('#image_C').attr('src','data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer));
                             layer.open({
                                 type: 1,
                                 title: '可疑人员捕捉',
                                 offset: 'auto',
                                 id: 'layerDemo' + 0,
-                                content: '<img id="image_C" src="data:image/png;base64,'+arraybuffer+'" style="width: 100%;height: auto;"></img>',
+                                content: '<imgsrc="data:image/png;base64,'+arraybuffer+'" style="width: 100%;height: auto;"></img>',
                                 btn: ['确认'],
                                 btnAlign: 'c',
                                 shade: 0,
