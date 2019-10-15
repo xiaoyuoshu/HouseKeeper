@@ -85,9 +85,48 @@ function getImage_C(){
     });
 }
 
+function getImage_M(){
+    $.ajax({
+        url: '/image/devices/38723967/datastreams/image3',
+        type: 'get',
+        data:{
+            count: 5,
+            account: 'whitenoise1'
+        },
+        headers: {
+            'Content-Type': 'application/json',
+            'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+        },
+        success: function (res) {
+            console.log(res.errno);//0则无问题
+            console.log(res.data.current_value.index);//image_url+'https://api.heclouds.com/bindata/'
+            console.log(res.data.update_at);//时间戳
+            if(res.errno==0){
+                image_url = res.data.current_value.index;
+                if(true){
+                    fetch('/image/bindata/'+res.data.current_value.index,{
+                        method: 'get',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+                        },
+                        responseType: 'arraybuffer'
+                    }).then(res => {
+                        return res.arrayBuffer();
+                    }).then(arraybuffer => {
+
+                        $('#image_M').attr('src','data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer));
+                    });
+                }
+                window.image_M_time = res.data.update_at;
+            }
+        }
+    });
+}
 
 layui.use(['element','table','layer'], function(){
     window.setInterval(getImage_C,2000);
+    window.setInterval(getImage_M,2000);
     window.chartColors = {
         red: 'rgb(255, 99, 132)',
         orange: 'rgb(255, 159, 64)',
@@ -458,9 +497,9 @@ layui.use(['element','table','layer'], function(){
                             layer.open({
                                 type: 1,
                                 title: '可疑人员捕捉',
-                                offset: 'auto',
+                                offset: 't',
                                 id: 'layerDemo' + 0,
-                                content: '<img src="data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer)+'" style="width: 100%;height: auto;"></img>',
+                                content: '<img src="data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer)+'" style="width: 100%;height: auto;margin: 10px"></img>',
                                 btn: ['确认'],
                                 btnAlign: 'c',
                                 shade: 0,
