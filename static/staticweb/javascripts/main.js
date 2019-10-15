@@ -124,6 +124,21 @@ function getImage_M(){
     });
 }
 
+function control_car(data_in) {
+    $.ajax({
+        url: '/image/devices/38723967/datapoints?type=3',
+        type: 'post',
+        data: data_in,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+        },
+        success: function(res){
+            console.log(res);
+        }
+    })
+}
+
 layui.use(['element','table','layer'], function(){
     window.setInterval(getImage_C,2000);
     window.setInterval(getImage_M,2000);
@@ -512,6 +527,38 @@ layui.use(['element','table','layer'], function(){
                 }
             }
         });
+    })
+
+    //控制小车
+    $('#car_auto').click(function () {
+        control_car({
+            "SwitchButton": 'auto'
+        })
+    })
+    $('#car_control').click(function () {
+        control_car({
+            "SwitchButton": 'control'
+        })
+    })
+    $('#car_up').click(function () {
+        control_car({
+            "guide": 'Up'
+        })
+    })
+    $('#car_down').click(function () {
+        control_car({
+            "guide": 'Down'
+        })
+    })
+    $('#car_left').click(function () {
+        control_car({
+            "guide": 'Left'
+        })
+    })
+    $('#car_right').click(function () {
+        control_car({
+            "guide": 'Right'
+        })
     })
 });
 var timeFormat = 'MM/DD/YYYY HH:mm';
