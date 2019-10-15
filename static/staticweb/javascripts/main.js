@@ -124,11 +124,42 @@ function getImage_M(){
     });
 }
 
+function getCarPos() {
+    $.ajax({
+        url: '/image/devices/38723967/datapoints?/query',
+        type: 'get',
+        data:{
+            'datastream_id': 'x'
+        },
+        headers: {
+            'Content-Type': 'application/json',
+            'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+        },
+        success: function (res) {
+            console.log(res.data.datastreams[0].datapoints[0].value);
+        }
+    });
+    $.ajax({
+        url: '/image/devices/38723967/datapoints?/query',
+        type: 'get',
+        data:{
+            'datastream_id': 'y'
+        },
+        headers: {
+            'Content-Type': 'application/json',
+            'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+        },
+        success: function (res) {
+            console.log(res.data.datastreams[0].datapoints[0].value);
+        }
+    });
+}
+
 function control_car(data_in) {
     $.ajax({
         url: '/image/devices/38723967/datapoints?type=3',
         type: 'post',
-        data: data_in,
+        data: JSON.stringify(data_in),
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
             'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
@@ -142,6 +173,7 @@ function control_car(data_in) {
 layui.use(['element','table','layer'], function(){
     window.setInterval(getImage_C,2000);
     window.setInterval(getImage_M,2000);
+    window.setInterval(getCarPos,2000);
     window.chartColors = {
         red: 'rgb(255, 99, 132)',
         orange: 'rgb(255, 159, 64)',
