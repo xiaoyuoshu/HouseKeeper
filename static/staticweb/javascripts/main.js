@@ -548,6 +548,7 @@ layui.use(['element','table','layer'], function(){
                                 id: 'layerDemo' + 0,
                                 content: '<img src="data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer)+'" style="width: 100%;height: auto;margin: 10px"></img>',
                                 btn: ['确认'],
+                                area: ['600px', '600px'],
                                 btnAlign: 'c',
                                 shade: 0,
                                 yes: function(){

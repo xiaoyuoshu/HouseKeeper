@@ -96,12 +96,6 @@
           </form>
         </div>
       </div>
-      <div class="layui-card" style="height: 150px;margin-bottom: 0">
-        <div class="layui-card-header">其他信息</div>
-        <div class="layui-card-body">
-          <button id="show_catch_image" type="button" class="layui-btn">查看可疑人员</button>
-        </div>
-      </div>
     </div>
   </div>
   <!--路径控制-->
@@ -110,21 +104,136 @@
       <h1 class="content-h1">路径控制</h1>
     </div>
     <div class="layui-col-md1"></div>
-    <div class="layui-col-md5 layui-col-lg-offset1">
+    <div class="layui-col-md6 layui-col-lg-offset1">
       <div>
         <img id="image_M"style="width: 100%;height: auto;"></img>
       </div>
     </div>
-    <div class="layui-col-md5">
-      <div class="layui-card" style="height: 150px;margin-bottom: 0">
-        <div class="layui-card-header">小车控制</div>
+    <div class="layui-col-md4">
+      <div class="layui-card" style="height: 220px;">
+        <div class="layui-card-header" style="font-size: x-large">小车控制</div>
         <div class="layui-card-body">
-          <button id="car_auto" type="button" class="layui-btn">自动</button>
-          <button id="car_control" type="button" class="layui-btn">手动</button>
-          <button id="car_up" type="button" class="layui-btn">前进</button>
-          <button id="car_down" type="button" class="layui-btn">后退</button>
-          <button id="car_left" type="button" class="layui-btn">左移</button>
-          <button id="car_right" type="button" class="layui-btn">右移</button>
+          <div class="layui-row" style="margin: 10px">
+            <div class="layui-col-md2">
+              <div style="vertical-align:middle;display: table-cell">切换模式：</div>
+            </div>
+            <div class="layui-col-md2">
+              <button id="car_auto" type="button" class="layui-btn">自动</button>
+            </div>
+            <div class="layui-col-md2">
+              <button id="car_control" type="button" class="layui-btn">手动</button>
+            </div>
+            <div class="layui-col-md6"></div>
+          </div>
+          <div class="layui-row" style="margin: 10px">
+            <div class="layui-col-md2">
+              <p style="vertical-align:middle;display: table-cell">行动控制：</p>
+            </div>
+            <div class="layui-col-md2">
+              <button id="car_up" type="button" class="layui-btn">前进</button>
+            </div>
+            <div class="layui-col-md2">
+              <button id="car_down" type="button" class="layui-btn">后退</button>
+            </div>
+            <div class="layui-col-md6"></div>
+          </div>
+          <div class="layui-row" style="margin: 10px">
+            <div class="layui-col-md2">
+              <p style="vertical-align:middle;display: table-cell">转向控制：</p>
+            </div>
+            <div class="layui-col-md2">
+              <button id="car_left" type="button" class="layui-btn">左移</button>
+            </div>
+            <div class="layui-col-md2">
+              <button id="car_right" type="button" class="layui-btn">右移</button>
+            </div>
+            <div class="layui-col-md6"></div>
+          </div>
+        </div>
+      </div>
+      <div class="layui-card" style="height: 500px;margin-bottom: 0">
+        <div class="layui-card-header" style="font-size: x-large">危险预警</div>
+        <div class="layui-card-body">
+          <div class="layui-row">
+
+            <form class="layui-form" lay-filter="warn_set">
+              <div class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label">温度</label>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="t_min" autocomplete="off" class="layui-input">
+                  </div>
+                  <div class="layui-form-mid">-</div>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="t_max" autocomplete="off" class="layui-input">
+                  </div>
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label">湿度</label>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="h_min" autocomplete="off" class="layui-input">
+                  </div>
+                  <div class="layui-form-mid">-</div>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="h_max" autocomplete="off" class="layui-input">
+                  </div>
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label">烟雾浓度</label>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="s_min" autocomplete="off" class="layui-input">
+                  </div>
+                  <div class="layui-form-mid">-</div>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="s_max" autocomplete="off" class="layui-input">
+                  </div>
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label">光照</label>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="i_min" autocomplete="off" class="layui-input">
+                  </div>
+                  <div class="layui-form-mid">-</div>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="i_max" autocomplete="off" class="layui-input">
+                  </div>
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label">大气压强</label>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="c_min" autocomplete="off" class="layui-input">
+                  </div>
+                  <div class="layui-form-mid">-</div>
+                  <div class="layui-input-inline" style="width: 100px;">
+                    <input type="text" name="c_max" autocomplete="off" class="layui-input">
+                  </div>
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <label class="layui-form-label">可疑人预警</label>
+                <div class="layui-input-block">
+                  <input name="ca_wa_on" type="checkbox" lay-skin="switch" lay-filter="airon" lay-text="开|关">
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <div class="layui-input-block">
+                  <button class="layui-btn" lay-submit lay-filter="warn_set">提交</button>
+                  <button id="show_catch_image" type="button" class="layui-btn">查看可疑人员</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="layui-row">
+
+          </div>
         </div>
       </div>
     </div>
