@@ -112,6 +112,7 @@ def warn_set():
     warn['c_max'] = request.form['c_max']
     warn['waon'] = request.form['waon']
     print(warn)
+    return json.dumps({'success': 1})
 
 
 @app.route('/api/log/operating/')
