@@ -389,16 +389,6 @@ layui.use(['element','table','layer'], function(){
     form.on('submit(warn_set)',function (data) {
         console.log(data.field);
         data.field.waon = 'on' === data.field.waon?true:false
-        data.field.t_min = parseInt(data.field.t_min)
-        data.field.t_max = parseInt(data.field.t_max)
-        data.field.h_min = parseInt(data.field.h_min)
-        data.field.h_max = parseInt(data.field.h_max)
-        data.field.s_min = parseInt(data.field.s_min)
-        data.field.s_max = parseInt(data.field.s_max)
-        data.field.i_min = parseInt(data.field.i_min)
-        data.field.i_max = parseInt(data.field.i_max)
-        data.field.c_min = parseInt(data.field.c_min)
-        data.field.c_max = parseInt(data.field.c_max)
         $.ajax({
             url: '/api/warnset/',
             data: data.field,

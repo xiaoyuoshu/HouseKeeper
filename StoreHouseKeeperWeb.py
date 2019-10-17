@@ -100,17 +100,17 @@ def warn_set():
     if session.get('logged_in') is not True:
         return json.dumps({"error": 0})
     global warn
-    warn['t_min'] = request.form['t_min']
-    warn['t_max'] = request.form['t_max']
-    warn['h_min'] = request.form['h_min']
-    warn['h_max'] = request.form['h_max']
-    warn['s_min'] = request.form['s_min']
-    warn['s_max'] = request.form['s_max']
-    warn['i_min'] = request.form['i_min']
-    warn['i_max'] = request.form['i_max']
-    warn['c_min'] = request.form['c_min']
-    warn['c_max'] = request.form['c_max']
-    warn['waon'] = request.form['waon']
+    warn['t_min'] = int(request.form['t_min'])
+    warn['t_max'] = int(request.form['t_max'])
+    warn['h_min'] = int(request.form['h_min'])
+    warn['h_max'] = int(request.form['h_max'])
+    warn['s_min'] = int(request.form['s_min'])
+    warn['s_max'] = int(request.form['s_max'])
+    warn['i_min'] = int(request.form['i_min'])
+    warn['i_max'] = int(request.form['i_max'])
+    warn['c_min'] = int(request.form['c_min'])
+    warn['c_max'] = int(request.form['c_max'])
+    warn['waon'] = False if(request.form['waon'] == 'false') else True
     print(warn)
     return json.dumps({'success': 1})
 
