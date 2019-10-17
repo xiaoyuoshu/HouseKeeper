@@ -276,7 +276,7 @@ layui.use(['element','table','layer'], function(){
         if(topic.indexOf('newWrLog') != -1){
             //新危险日志
             console.log('newwr')
-            $('#newwr').show()
+                $('#newwr').show()
         }
     })
 
@@ -592,6 +592,12 @@ layui.use(['element','table','layer'], function(){
             userid: userid,
             carM: '自动'
         }), {qos: 2})
+        layer.msg('切换自动成功！', {
+          icon: 1,
+          time: 1000 //2秒关闭（如果不配置，默认是3秒）
+        }, function(){
+          //do something
+        });
     })
     $('#car_control').click(function () {
         control_car({
@@ -601,6 +607,12 @@ layui.use(['element','table','layer'], function(){
             userid:userid,
             carM: '手动'
         }), {qos: 2})
+        layer.msg('切换手动成功！', {
+          icon: 1,
+          time: 1000 //2秒关闭（如果不配置，默认是3秒）
+        }, function(){
+          //do something
+        });
     })
     $('#car_up').click(function () {
         control_car({
