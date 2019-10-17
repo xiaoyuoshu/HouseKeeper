@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StoreHouseKeeperWeb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="354" column="46" lean-forward="true" selection-start-line="354" selection-start-column="46" selection-end-line="354" selection-end-column="46" />
+            <state relative-caret-position="2243">
+              <caret line="358" column="21" lean-forward="false" selection-start-line="358" selection-start-column="21" selection-end-line="358" selection-end-column="21" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1095#1142#0" expanded="false" />
@@ -108,39 +108,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="connSQL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/connSQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="132" />
+            <state relative-caret-position="270">
+              <caret line="80" column="38" lean-forward="false" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
               <folding>
                 <element signature="e#284#670#0" expanded="false" />
                 <element signature="e#1095#1411#0" expanded="false" />
                 <element signature="e#1452#1734#0" expanded="false" />
                 <element signature="e#1765#2065#0" expanded="false" />
                 <element signature="e#3003#3261#0" expanded="false" />
-                <marker date="1571317635476" expanded="true" signature="351:384" ph="select * fro... USER" />
-                <marker date="1571317635476" expanded="true" signature="351:385" ph="select * fro... USER" />
-                <marker date="1571317635476" expanded="true" signature="351:386" ph="select * fro... USER" />
-                <marker date="1571317635476" expanded="true" signature="351:387" ph="select * fro... USER" />
-                <marker date="1571317635476" expanded="true" signature="351:403" ph="select * fro... USER" />
-                <marker date="1571317635476" expanded="true" signature="351:405" ph="select * fro... USER" />
-                <marker date="1571317635476" expanded="true" signature="763:836" ph="insert into user... " />
-                <marker date="1571317635476" expanded="true" signature="763:843" ph="insert into realtimedata... " />
-                <marker date="1571317635476" expanded="true" signature="763:845" ph="insert into realtimedata... " />
-                <marker date="1571317635476" expanded="true" signature="763:866" ph="insert into realtimedata... " />
-                <marker date="1571317635476" expanded="true" signature="763:1001" ph="insert into realtimedata... " />
-                <marker date="1571317635476" expanded="true" signature="763:1061" ph="insert into realtimedata... " />
-                <marker date="1571317635476" expanded="true" signature="1162:1262" ph="select * dat... realTimeData" />
-                <marker date="1571317635476" expanded="true" signature="1162:1285" ph="select datat... realTimeData" />
-                <marker date="1571317635476" expanded="true" signature="1519:1630" ph="select datat... realTimeData" />
-                <marker date="1571317635476" expanded="true" signature="1519:1631" ph="select datat... realTimeData" />
-                <marker date="1571317635476" expanded="true" signature="1832:1945" ph="select datat... realTimeData" />
-                <marker date="1571317635476" expanded="true" signature="2184:2262" ph="insert into realtimedata... " />
-                <marker date="1571317635476" expanded="true" signature="2498:2574" ph="insert into warning_log... " />
-                <marker date="1571317635476" expanded="true" signature="2784:2866" ph="select * fro... operating_log" />
-                <marker date="1571317635476" expanded="true" signature="2784:2887" ph="select optim... operating_log" />
-                <marker date="1571317635476" expanded="true" signature="3070:3171" ph="select wrtim... warning_log" />
+                <marker date="1571323435401" expanded="true" signature="351:384" ph="select * fro... USER" />
+                <marker date="1571323435401" expanded="true" signature="351:385" ph="select * fro... USER" />
+                <marker date="1571323435401" expanded="true" signature="351:386" ph="select * fro... USER" />
+                <marker date="1571323435401" expanded="true" signature="351:387" ph="select * fro... USER" />
+                <marker date="1571323435401" expanded="true" signature="351:403" ph="select * fro... USER" />
+                <marker date="1571323435401" expanded="true" signature="351:405" ph="select * fro... USER" />
+                <marker date="1571323435401" expanded="true" signature="763:836" ph="insert into user... " />
+                <marker date="1571323435401" expanded="true" signature="763:843" ph="insert into realtimedata... " />
+                <marker date="1571323435401" expanded="true" signature="763:845" ph="insert into realtimedata... " />
+                <marker date="1571323435401" expanded="true" signature="763:866" ph="insert into realtimedata... " />
+                <marker date="1571323435401" expanded="true" signature="763:1001" ph="insert into realtimedata... " />
+                <marker date="1571323435401" expanded="true" signature="763:1061" ph="insert into realtimedata... " />
+                <marker date="1571323435401" expanded="true" signature="1162:1262" ph="select * dat... realTimeData" />
+                <marker date="1571323435401" expanded="true" signature="1162:1285" ph="select datat... realTimeData" />
+                <marker date="1571323435401" expanded="true" signature="1519:1630" ph="select datat... realTimeData" />
+                <marker date="1571323435401" expanded="true" signature="1519:1631" ph="select datat... realTimeData" />
+                <marker date="1571323435401" expanded="true" signature="1832:1945" ph="select datat... realTimeData" />
+                <marker date="1571323435401" expanded="true" signature="2184:2262" ph="insert into realtimedata... " />
+                <marker date="1571323435401" expanded="true" signature="2498:2574" ph="insert into warning_log... " />
+                <marker date="1571323435401" expanded="true" signature="2784:2866" ph="select * fro... operating_log" />
+                <marker date="1571323435401" expanded="true" signature="2784:2887" ph="select optim... operating_log" />
+                <marker date="1571323435401" expanded="true" signature="3070:3171" ph="select wrtim... warning_log" />
               </folding>
             </state>
           </provider>
@@ -191,8 +191,8 @@
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/static/staticweb/javascripts/main.js" />
         <option value="$PROJECT_DIR$/templates/main.html" />
-        <option value="$PROJECT_DIR$/connSQL.py" />
         <option value="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
+        <option value="$PROJECT_DIR$/connSQL.py" />
       </list>
     </option>
   </component>
@@ -723,42 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connSQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="132" />
-          <folding>
-            <element signature="e#284#670#0" expanded="false" />
-            <element signature="e#1095#1411#0" expanded="false" />
-            <element signature="e#1452#1734#0" expanded="false" />
-            <element signature="e#1765#2065#0" expanded="false" />
-            <element signature="e#3003#3261#0" expanded="false" />
-            <marker date="1571317635476" expanded="true" signature="351:384" ph="select * fro... USER" />
-            <marker date="1571317635476" expanded="true" signature="351:385" ph="select * fro... USER" />
-            <marker date="1571317635476" expanded="true" signature="351:386" ph="select * fro... USER" />
-            <marker date="1571317635476" expanded="true" signature="351:387" ph="select * fro... USER" />
-            <marker date="1571317635476" expanded="true" signature="351:403" ph="select * fro... USER" />
-            <marker date="1571317635476" expanded="true" signature="351:405" ph="select * fro... USER" />
-            <marker date="1571317635476" expanded="true" signature="763:836" ph="insert into user... " />
-            <marker date="1571317635476" expanded="true" signature="763:843" ph="insert into realtimedata... " />
-            <marker date="1571317635476" expanded="true" signature="763:845" ph="insert into realtimedata... " />
-            <marker date="1571317635476" expanded="true" signature="763:866" ph="insert into realtimedata... " />
-            <marker date="1571317635476" expanded="true" signature="763:1001" ph="insert into realtimedata... " />
-            <marker date="1571317635476" expanded="true" signature="763:1061" ph="insert into realtimedata... " />
-            <marker date="1571317635476" expanded="true" signature="1162:1262" ph="select * dat... realTimeData" />
-            <marker date="1571317635476" expanded="true" signature="1162:1285" ph="select datat... realTimeData" />
-            <marker date="1571317635476" expanded="true" signature="1519:1630" ph="select datat... realTimeData" />
-            <marker date="1571317635476" expanded="true" signature="1519:1631" ph="select datat... realTimeData" />
-            <marker date="1571317635476" expanded="true" signature="1832:1945" ph="select datat... realTimeData" />
-            <marker date="1571317635476" expanded="true" signature="2184:2262" ph="insert into realtimedata... " />
-            <marker date="1571317635476" expanded="true" signature="2498:2574" ph="insert into warning_log... " />
-            <marker date="1571317635476" expanded="true" signature="2784:2866" ph="select * fro... operating_log" />
-            <marker date="1571317635476" expanded="true" signature="2784:2887" ph="select optim... operating_log" />
-            <marker date="1571317635476" expanded="true" signature="3070:3171" ph="select wrtim... warning_log" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/staticweb/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -794,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="354" column="46" lean-forward="true" selection-start-line="354" selection-start-column="46" selection-end-line="354" selection-end-column="46" />
+        <state relative-caret-position="2243">
+          <caret line="358" column="21" lean-forward="false" selection-start-line="358" selection-start-column="21" selection-end-line="358" selection-end-column="21" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1095#1142#0" expanded="false" />
@@ -806,6 +770,42 @@
             <element signature="e#6101#6540#0" expanded="false" />
             <element signature="e#6610#6969#0" expanded="false" />
             <element signature="e#7029#7344#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connSQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="80" column="38" lean-forward="false" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+          <folding>
+            <element signature="e#284#670#0" expanded="false" />
+            <element signature="e#1095#1411#0" expanded="false" />
+            <element signature="e#1452#1734#0" expanded="false" />
+            <element signature="e#1765#2065#0" expanded="false" />
+            <element signature="e#3003#3261#0" expanded="false" />
+            <marker date="1571323435401" expanded="true" signature="351:384" ph="select * fro... USER" />
+            <marker date="1571323435401" expanded="true" signature="351:385" ph="select * fro... USER" />
+            <marker date="1571323435401" expanded="true" signature="351:386" ph="select * fro... USER" />
+            <marker date="1571323435401" expanded="true" signature="351:387" ph="select * fro... USER" />
+            <marker date="1571323435401" expanded="true" signature="351:403" ph="select * fro... USER" />
+            <marker date="1571323435401" expanded="true" signature="351:405" ph="select * fro... USER" />
+            <marker date="1571323435401" expanded="true" signature="763:836" ph="insert into user... " />
+            <marker date="1571323435401" expanded="true" signature="763:843" ph="insert into realtimedata... " />
+            <marker date="1571323435401" expanded="true" signature="763:845" ph="insert into realtimedata... " />
+            <marker date="1571323435401" expanded="true" signature="763:866" ph="insert into realtimedata... " />
+            <marker date="1571323435401" expanded="true" signature="763:1001" ph="insert into realtimedata... " />
+            <marker date="1571323435401" expanded="true" signature="763:1061" ph="insert into realtimedata... " />
+            <marker date="1571323435401" expanded="true" signature="1162:1262" ph="select * dat... realTimeData" />
+            <marker date="1571323435401" expanded="true" signature="1162:1285" ph="select datat... realTimeData" />
+            <marker date="1571323435401" expanded="true" signature="1519:1630" ph="select datat... realTimeData" />
+            <marker date="1571323435401" expanded="true" signature="1519:1631" ph="select datat... realTimeData" />
+            <marker date="1571323435401" expanded="true" signature="1832:1945" ph="select datat... realTimeData" />
+            <marker date="1571323435401" expanded="true" signature="2184:2262" ph="insert into realtimedata... " />
+            <marker date="1571323435401" expanded="true" signature="2498:2574" ph="insert into warning_log... " />
+            <marker date="1571323435401" expanded="true" signature="2784:2866" ph="select * fro... operating_log" />
+            <marker date="1571323435401" expanded="true" signature="2784:2887" ph="select optim... operating_log" />
+            <marker date="1571323435401" expanded="true" signature="3070:3171" ph="select wrtim... warning_log" />
           </folding>
         </state>
       </provider>

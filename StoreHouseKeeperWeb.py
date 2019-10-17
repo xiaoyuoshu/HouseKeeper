@@ -353,21 +353,21 @@ client.loop_start()
 
 def msg_send(code):
     client.publish('newWrLog/whitenoise1', '')
-    # msgclient = AcsClient('LTAI4FsrQPUPENTfptHcCTuX', 'adtlupVoqOCwemfuAiwAFGIOfelPTR', 'cn-hangzhou')
-    # request = CommonRequest()
-    # request.set_accept_format('json')
-    # request.set_domain('dysmsapi.aliyuncs.com')
-    # request.set_method('POST')
-    # request.set_protocol_type('https')  # https | http
-    # request.set_version('2017-05-25')
-    # request.set_action_name('SendSms')
-    # request.add_query_param('RegionId', "cn-hangzhou")
-    # request.add_query_param('PhoneNumbers', "15072976763")
-    # request.add_query_param('SignName', "智能食品仓库管家")
-    # request.add_query_param('TemplateCode', "SMS_175536303")
-    # request.add_query_param('TemplateParam', "{\"code\":\""+code+"\"}")
-    # response = msgclient.do_action(request)
-    # print(str(response, encoding='utf-8'))
+    msgclient = AcsClient('LTAI4FsrQPUPENTfptHcCTuX', 'adtlupVoqOCwemfuAiwAFGIOfelPTR', 'cn-hangzhou')
+    request = CommonRequest()
+    request.set_accept_format('json')
+    request.set_domain('dysmsapi.aliyuncs.com')
+    request.set_method('POST')
+    request.set_protocol_type('https')  # https | http
+    request.set_version('2017-05-25')
+    request.set_action_name('SendSms')
+    request.add_query_param('RegionId', "cn-hangzhou")
+    request.add_query_param('PhoneNumbers', "15072976763")
+    request.add_query_param('SignName', "智能食品仓库管家")
+    request.add_query_param('TemplateCode', "SMS_175536303")
+    request.add_query_param('TemplateParam', "{\"code\":\""+code+"\"}")
+    response = msgclient.do_action(request)
+    print(str(response, encoding='utf-8'))
 
 global warn
 warn = {
