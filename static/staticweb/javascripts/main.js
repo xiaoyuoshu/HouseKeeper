@@ -385,6 +385,21 @@ layui.use(['element','table','layer'], function(){
         });
         return false;
     });
+
+    form.on('submit(warn_set)',function (data) {
+        console.log(data.field);
+        data.field.waon = 'on' === data.field.waon?true:false
+        $.ajax({
+            url: '/api/warnset/',
+            data: data.field,
+            type: 'post',
+            dataType: 'json',
+            success: function (data) {
+                console.log(data);
+            }
+        });
+        return false;
+    })
     //初始化图表
     $('#temChart').click(function () {
         chartYtype = 0;

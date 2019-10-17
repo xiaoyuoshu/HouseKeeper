@@ -5,6 +5,8 @@ from flask import Flask, render_template, request, session, redirect
 import json
 import paho.mqtt.client as mqtt
 import connSQL
+from aliyunsdkcore.client import AcsClient
+from aliyunsdkcore.request import CommonRequest
 
 app = Flask(__name__)
 
@@ -47,7 +49,19 @@ def login_route():
 @app.route('/main/')
 def main_page():
     # 主界面
-    return render_template('main.html', userid=session.get('account'))
+    return render_template('main.html',
+                           userid=session.get('account'),
+                           t_min=warn['t_min'],
+                           t_max=warn['t_max'],
+                           h_min=warn['h_min'],
+                           h_max=warn['h_max'],
+                           s_min=warn['s_min'],
+                           s_max=warn['s_max'],
+                           i_min=warn['i_min'],
+                           i_max=warn['i_max'],
+                           c_min=warn['c_min'],
+                           c_max=warn['c_max'],
+                           check=("checked" if(warn['waon']) else ""))
 
 
 # api for web
@@ -79,6 +93,25 @@ def logout():
     # 注销登录，清空session
     session.clear()
     return json.dumps({'success': 1})
+
+
+@app.route('/api/warnset/', methods=['POST'])
+def warn_set():
+    if session.get('logged_in') is not True:
+        return json.dumps({"error": 0})
+    global warn
+    warn['t_min'] = request.form['t_min']
+    warn['t_max'] = request.form['t_max']
+    warn['h_min'] = request.form['h_min']
+    warn['h_max'] = request.form['h_max']
+    warn['s_min'] = request.form['s_min']
+    warn['s_max'] = request.form['s_max']
+    warn['i_min'] = request.form['i_min']
+    warn['i_max'] = request.form['i_max']
+    warn['c_min'] = request.form['c_min']
+    warn['c_max'] = request.form['c_max']
+    warn['waon'] = request.form['waon']
+    print(warn)
 
 
 @app.route('/api/log/operating/')
@@ -264,6 +297,24 @@ def on_message(client, userdata, msg):
 def on_publish(client, usedata, mid):
     pass
 
+def msg_send(code):
+    client = AcsClient('LTAI4FsrQPUPENTfptHcCTuX', 'adtlupVoqOCwemfuAiwAFGIOfelPTR', 'cn-hangzhou')
+    request = CommonRequest()
+    request.set_accept_format('json')
+    request.set_domain('dysmsapi.aliyuncs.com')
+    request.set_method('POST')
+    request.set_protocol_type('https')  # https | http
+    request.set_version('2017-05-25')
+    request.set_action_name('SendSms')
+    request.add_query_param('RegionId', "cn-hangzhou")
+    request.add_query_param('PhoneNumbers', "15072976763")
+    request.add_query_param('SignName', "智能食品仓库管家")
+    request.add_query_param('TemplateCode', "SMS_175536303")
+    request.add_query_param('TemplateParam', "{\"code\":\""+code+"\"}")
+    response = client.do_action(request)
+    # python2:  print(response)
+    print(str(response, encoding='utf-8'))
+
 
 # 监听所有ip，端口设置为5000
 client = mqtt.Client()
@@ -275,6 +326,22 @@ client.connect("chuche.xyz", 1883, 600)
 client.subscribe('realTimeData/#', 2)
 client.subscribe('controlAir/#', 2)
 client.loop_start()
+
+
+global warn
+warn = {
+    't_min': 22,
+    't_max': 27,
+    'h_min': 66,
+    'h_max': 78,
+    's_min': 0,
+    's_max': 900,
+    'i_min': -1,
+    'i_max': 15,
+    'c_min': 102200,
+    'c_max': 102250,
+    'waon': False
+}
 
 if __name__ == '__main__':
     app.run("0.0.0.0", 10016)

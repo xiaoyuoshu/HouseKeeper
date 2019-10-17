@@ -110,7 +110,7 @@
       </div>
     </div>
     <div class="layui-col-md4">
-      <div class="layui-card" style="height: 220px;">
+      <div class="layui-card" style="height: 250px;">
         <div class="layui-card-header" style="font-size: x-large">小车控制</div>
         <div class="layui-card-body">
           <div class="layui-row" style="margin: 10px">
@@ -151,7 +151,7 @@
           </div>
         </div>
       </div>
-      <div class="layui-card" style="height: 500px;margin-bottom: 0">
+      <div class="layui-card" style="height: 533px;margin-bottom: 0">
         <div class="layui-card-header" style="font-size: x-large">危险预警</div>
         <div class="layui-card-body">
           <div class="layui-row">
@@ -161,11 +161,11 @@
                 <div class="layui-inline">
                   <label class="layui-form-label">温度</label>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="t_min" autocomplete="off" class="layui-input">
+                    <input type="text" name="t_min" value="{{t_min}}" autocomplete="off" class="layui-input">
                   </div>
                   <div class="layui-form-mid">-</div>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="t_max" autocomplete="off" class="layui-input">
+                    <input type="text" name="t_max" value="{{ t_max }}" autocomplete="off" class="layui-input">
                   </div>
                 </div>
               </div>
@@ -173,11 +173,11 @@
                 <div class="layui-inline">
                   <label class="layui-form-label">湿度</label>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="h_min" autocomplete="off" class="layui-input">
+                    <input type="text" name="h_min" value="{{ h_min }}" autocomplete="off" class="layui-input">
                   </div>
                   <div class="layui-form-mid">-</div>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="h_max" autocomplete="off" class="layui-input">
+                    <input type="text" name="h_max" value="{{ h_max }}" autocomplete="off" class="layui-input">
                   </div>
                 </div>
               </div>
@@ -185,11 +185,11 @@
                 <div class="layui-inline">
                   <label class="layui-form-label">烟雾浓度</label>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="s_min" autocomplete="off" class="layui-input">
+                    <input type="text" name="s_min" value="{{ s_min }}" autocomplete="off" class="layui-input">
                   </div>
                   <div class="layui-form-mid">-</div>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="s_max" autocomplete="off" class="layui-input">
+                    <input type="text" name="s_max" value="{{ s_max }}" autocomplete="off" class="layui-input">
                   </div>
                 </div>
               </div>
@@ -197,11 +197,11 @@
                 <div class="layui-inline">
                   <label class="layui-form-label">光照</label>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="i_min" autocomplete="off" class="layui-input">
+                    <input type="text" name="i_min" value="{{ i_min }}" autocomplete="off" class="layui-input">
                   </div>
                   <div class="layui-form-mid">-</div>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="i_max" autocomplete="off" class="layui-input">
+                    <input type="text" name="i_max" value="{{ i_max }}" autocomplete="off" class="layui-input">
                   </div>
                 </div>
               </div>
@@ -209,18 +209,18 @@
                 <div class="layui-inline">
                   <label class="layui-form-label">大气压强</label>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="c_min" autocomplete="off" class="layui-input">
+                    <input type="text" name="c_min" value="{{ c_min }}" autocomplete="off" class="layui-input">
                   </div>
                   <div class="layui-form-mid">-</div>
                   <div class="layui-input-inline" style="width: 100px;">
-                    <input type="text" name="c_max" autocomplete="off" class="layui-input">
+                    <input type="text" name="c_max" value="{{ c_max }}" autocomplete="off" class="layui-input">
                   </div>
                 </div>
               </div>
               <div class="layui-form-item">
                 <label class="layui-form-label">可疑人预警</label>
                 <div class="layui-input-block">
-                  <input name="ca_wa_on" type="checkbox" lay-skin="switch" lay-filter="airon" lay-text="开|关">
+                  <input name="waon" type="checkbox" lay-skin="switch" lay-filter="waon" lay-text="开|关" {{ check }}>
                 </div>
               </div>
               <div class="layui-form-item">
