@@ -112,6 +112,8 @@ def warn_set():
     warn['c_max'] = int(request.form['c_max'])
     warn['waon'] = False if(request.form['waon'] == 'false') else True
     print(warn)
+    client.publish('newOpLog/'+session.get('account'), '')
+    connSQL.newOP(session.get('account'), int(time.time() * 1000), '更改预警设置', '')
     return json.dumps({'success': 1})
 
 
@@ -291,8 +293,12 @@ def on_message(client, userdata, msg):
             info = '设置温度为' + control['tem'] + '度'
         else:
             info = '关闭空调'
-        client.publish('newOpLog/whitenoise1', info)
+        client.publish('newOpLog/'+control['userid'], info)
         connSQL.newOP(control['userid'], int(time.time()*1000), '控制空调', info)
+    elif title in "carMode":
+        carCon = json.loads(str)
+        client.publish('newOpLog/'+carCon['userid'], '切换到'+carCon['carM'])
+        connSQL.newOP(carCon['userid'], int(time.time()*1000), '切换小车运动模式', '切换到'+carCon['carM'])
 
 
 def on_publish(client, usedata, mid):
@@ -310,6 +316,7 @@ client.username_pw_set('admin', 'admin')
 client.connect("chuche.xyz", 1883, 600)
 client.subscribe('realTimeData/#', 2)
 client.subscribe('controlAir/#', 2)
+client.subscribe('carMode/#', 2)
 client.loop_start()
 
 

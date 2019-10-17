@@ -396,6 +396,12 @@ layui.use(['element','table','layer'], function(){
             dataType: 'json',
             success: function (data) {
                 console.log(data);
+                layer.msg('预警设置成功！', {
+                  icon: 1,
+                  time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                }, function(){
+                  //do something
+                });
             }
         });
         return false;
@@ -561,7 +567,7 @@ layui.use(['element','table','layer'], function(){
                                 title: '可疑人员捕捉',
                                 offset: 't',
                                 id: 'layerDemo' + 0,
-                                content: '<img src="data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer)+'" style="width: 100%;height: auto;margin: 10px"></img>',
+                                content: '<img src="data:image/png;base64,'+transformArrayBufferToBase64(arraybuffer)+'" style="width: 80%;height: auto;margin: 10px"></img>',
                                 btn: ['确认'],
                                 area: ['600px', '600px'],
                                 btnAlign: 'c',
@@ -582,11 +588,19 @@ layui.use(['element','table','layer'], function(){
         control_car({
             "SwitchButton": 'auto'
         })
+        client.publish('carMode/'+userid, JSON.stringify({
+            userid: userid,
+            carM: '自动'
+        }), {qos: 2})
     })
     $('#car_control').click(function () {
         control_car({
             "SwitchButton": 'control'
         })
+        client.publish('carMode/'+userid, JSON.stringify({
+            userid:userid,
+            carM: '手动'
+        }), {qos: 2})
     })
     $('#car_up').click(function () {
         control_car({
