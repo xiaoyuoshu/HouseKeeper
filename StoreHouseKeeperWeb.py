@@ -61,7 +61,7 @@ def main_page():
                            i_max=warn['i_max'],
                            c_min=warn['c_min'],
                            c_max=warn['c_max'],
-                           check=("checked" if(warn['waon']) else ""))
+                           check=("checked" if(warn['waon'] == 'false') else ""))
 
 
 # api for web
@@ -298,23 +298,7 @@ def on_message(client, userdata, msg):
 def on_publish(client, usedata, mid):
     pass
 
-def msg_send(code):
-    client = AcsClient('LTAI4FsrQPUPENTfptHcCTuX', 'adtlupVoqOCwemfuAiwAFGIOfelPTR', 'cn-hangzhou')
-    request = CommonRequest()
-    request.set_accept_format('json')
-    request.set_domain('dysmsapi.aliyuncs.com')
-    request.set_method('POST')
-    request.set_protocol_type('https')  # https | http
-    request.set_version('2017-05-25')
-    request.set_action_name('SendSms')
-    request.add_query_param('RegionId', "cn-hangzhou")
-    request.add_query_param('PhoneNumbers', "15072976763")
-    request.add_query_param('SignName', "智能食品仓库管家")
-    request.add_query_param('TemplateCode', "SMS_175536303")
-    request.add_query_param('TemplateParam', "{\"code\":\""+code+"\"}")
-    response = client.do_action(request)
-    # python2:  print(response)
-    print(str(response, encoding='utf-8'))
+
 
 
 # 监听所有ip，端口设置为5000
