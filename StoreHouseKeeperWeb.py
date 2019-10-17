@@ -285,6 +285,38 @@ def on_message(client, userdata, msg):
         realTimeData = json.loads(str)
         realTimeData['datatime'] = int(t*1000)
         connSQL.newData(realTimeData)
+        global warn
+        #(data['deviceID'], data['datatime'], data['tem'], data['hum'], data['illumination'], data['smoke'], data['co2']))
+        if(realTimeData['tem']<warn['t_min']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '温度异常', '温度过低')
+            msg_send('tLow')
+        if(realTimeData['tem']>warn['t_max']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '温度异常', '温度过高')
+            msg_send('tHigh')
+        if (realTimeData['hum'] < warn['h_min']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '湿度异常', '湿度过低')
+            msg_send('hLow')
+        if(realTimeData['hum'] > warn['h_max']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '湿度异常', '湿度过高')
+            msg_send('hHigh')
+        if (realTimeData['illumination'] < warn['i_min']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '光照强度异常', '光强过低')
+            msg_send('iLow')
+        if(realTimeData['illumination'] > warn['i_max']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '光照强度异常', '光强过高')
+            msg_send('iHigh')
+        if (realTimeData['smoke'] < warn['s_min']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '烟雾浓度异常', '烟雾浓度过低')
+            msg_send('sLow')
+        if(realTimeData['smoke'] > warn['s_max']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '烟雾浓度异常', '烟雾浓度过高')
+            msg_send('sHigh')
+        if(realTimeData['co2'] < warn['c_min']):
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '大气压强异常', '压强过低')
+            msg_send('aLow')
+        if(realTimeData['co2'] > warn['c_max']):
+            msg_send('aHigh')
+            connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '大气压强异常', '压强过高')
         client.publish('realTimeData2Web/'+userid, json.dumps(realTimeData), qos=2)
     elif title in "controlAir":
         control = json.loads(str)
@@ -319,6 +351,23 @@ client.subscribe('controlAir/#', 2)
 client.subscribe('carMode/#', 2)
 client.loop_start()
 
+def msg_send(code):
+    client.publish('newWrLog/whitenoise1', '')
+    # msgclient = AcsClient('LTAI4FsrQPUPENTfptHcCTuX', 'adtlupVoqOCwemfuAiwAFGIOfelPTR', 'cn-hangzhou')
+    # request = CommonRequest()
+    # request.set_accept_format('json')
+    # request.set_domain('dysmsapi.aliyuncs.com')
+    # request.set_method('POST')
+    # request.set_protocol_type('https')  # https | http
+    # request.set_version('2017-05-25')
+    # request.set_action_name('SendSms')
+    # request.add_query_param('RegionId', "cn-hangzhou")
+    # request.add_query_param('PhoneNumbers', "15072976763")
+    # request.add_query_param('SignName', "智能食品仓库管家")
+    # request.add_query_param('TemplateCode', "SMS_175536303")
+    # request.add_query_param('TemplateParam', "{\"code\":\""+code+"\"}")
+    # response = msgclient.do_action(request)
+    # print(str(response, encoding='utf-8'))
 
 global warn
 warn = {

@@ -78,6 +78,16 @@ def newOP(userid, optime, optype, opremark):
     sqlconn.close()
 
 
+def newWR(userid, wrtime, wrtype, wrremark):
+    sqlconn = conn()
+    cursor = sqlconn.cursor()
+    cursor.execute('insert into warning_log (userid,optime,optype,opremark) VALUES (%s,%s,%s,%s)',
+                   (userid, wrtime, wrtype, wrremark))
+    sqlconn.commit()
+    cursor.close()
+    sqlconn.close()
+
+
 def getOP(userid):
     sqlconn = conn()
     cursor = sqlconn.cursor()
