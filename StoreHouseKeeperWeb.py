@@ -7,7 +7,8 @@ import paho.mqtt.client as mqtt
 import connSQL
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkcore.request import CommonRequest
-from urllib import parse, request
+from urllib import parse
+import urllib.request as httpRequest
 
 app = Flask(__name__)
 
@@ -279,8 +280,8 @@ def getCatchTime():
         'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
     }
     url = 'https://api.heclouds.com/devices/38723967/datastreams/image1'
-    req = request.Request(url='%s%s%s' % (url, '?', textmod), headers=header_dict)
-    res = request.urlopen(req)
+    req = httpRequest.Request(url='%s%s%s' % (url, '?', textmod), headers=header_dict)
+    res = httpRequest.urlopen(req)
     ret = res.read();
     jsonData = json.loads(ret)
     return jsonData['data']['update_at']
