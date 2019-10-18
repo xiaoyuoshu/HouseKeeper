@@ -7,6 +7,7 @@ import paho.mqtt.client as mqtt
 import connSQL
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkcore.request import CommonRequest
+from urllib import parse, request
 
 app = Flask(__name__)
 
@@ -270,6 +271,21 @@ def getNowDatawx():
     return json.dumps(data)
 
 
+def getCatchTime():
+    textmod = {'count': '5', 'account': 'whitenoise1'}
+    textmod = parse.urlencode(textmod)
+    header_dict = {
+        'Content-Type': 'application/json',
+        'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+    }
+    url = 'https://api.heclouds.com/devices/38723967/datastreams/image1'
+    req = request.Request(url='%s%s%s' % (url, '?', textmod), headers=header_dict)
+    res = request.urlopen(req)
+    ret = res.read();
+    jsonData = json.loads(ret)
+    return jsonData['data']['update_at']
+
+
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code " + str(rc))
 
@@ -286,6 +302,12 @@ def on_message(client, userdata, msg):
         realTimeData['datatime'] = int(t*1000)
         connSQL.newData(realTimeData)
         global warn
+        if warn['waon']:
+            newtime = getCatchTime()
+            if newtime != warn['catchTime']:
+                warn['catchTime'] = newtime
+                connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '可疑人员出现', '')
+                msg_send('man')
         #(data['deviceID'], data['datatime'], data['tem'], data['hum'], data['illumination'], data['smoke'], data['co2']))
         if(realTimeData['tem']<warn['t_min']):
             connSQL.newWR(realTimeData['deviceID'], int(time.time() * 1000), '温度异常', '温度过低')
@@ -352,7 +374,7 @@ client.subscribe('carMode/#', 2)
 client.loop_start()
 
 def msg_send(code):
-    client.publish('newWrLog/whitenoise1', '')
+    client.publish('newWrLog/whitenoise1', code)
     msgclient = AcsClient('LTAI4FsrQPUPENTfptHcCTuX', 'adtlupVoqOCwemfuAiwAFGIOfelPTR', 'cn-hangzhou')
     request = CommonRequest()
     request.set_accept_format('json')
@@ -383,6 +405,7 @@ warn = {
     'c_max': 103000,
     'waon': False
 }
+warn['catchTime'] = getCatchTime()
 
 if __name__ == '__main__':
     app.run("0.0.0.0", 10016)

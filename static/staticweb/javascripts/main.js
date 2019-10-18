@@ -151,8 +151,15 @@ function getCarPos() {
                     canvas.width = $('#image_M').width();
                     canvas.height = $('#image_M').height();
                     var ctx = canvas.getContext('2d');
-                    ctx.fillStyle="#FF0000";
-                    ctx.fillRect(canvas.width*pos_x-5,canvas.height*(1-pos_y)-5,10,10);
+                    pox_x = canvas.width*pos_x;
+                    pos_y = canvas.height*(1-pos_y);
+                    cvs.moveTo(pos_x-6, pos_y-15);
+                    cvs.lineTo(pos_x+6, pos_y-15);
+                    cvs.lineTo(pos_x, pos_y);
+                    cvs.closePath();
+                    cvs.stroke();
+                    cvs.fillStyle = 'blue';
+                    cvs.fill();
                 }
             });
         }
@@ -279,8 +286,11 @@ layui.use(['element','table','layer'], function(){
         }
         if(topic.indexOf('newWrLog') != -1){
             //新危险日志
-            console.log('newwr')
-                $('#newwr').show()
+            console.log(uint82str(payload))
+            if(payload.indexOf('man') !=-1){
+                $('#catchMan').show()
+            }
+            $('#newwr').show()
         }
     })
 
@@ -540,6 +550,7 @@ layui.use(['element','table','layer'], function(){
     
     //查看可疑人员
     $('#show_catch_image').click(function () {
+        $('#catchMan').hide();
         $.ajax({
             url: '/image/devices/38723967/datastreams/image1',
             type: 'get',
