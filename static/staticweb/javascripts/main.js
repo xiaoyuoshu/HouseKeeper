@@ -153,13 +153,13 @@ function getCarPos() {
                     var ctx = canvas.getContext('2d');
                     pox_x = canvas.width*pos_x;
                     pos_y = canvas.height*(1-pos_y);
-                    cvs.moveTo(pos_x-6, pos_y-15);
-                    cvs.lineTo(pos_x+6, pos_y-15);
-                    cvs.lineTo(pos_x, pos_y);
-                    cvs.closePath();
-                    cvs.stroke();
-                    cvs.fillStyle = 'blue';
-                    cvs.fill();
+                    ctx.moveTo(pos_x-6, pos_y-15);
+                    ctx.lineTo(pos_x+6, pos_y-15);
+                    ctx.lineTo(pos_x, pos_y);
+                    ctx.closePath();
+                    ctx.stroke();
+                    ctx.fillStyle = 'blue';
+                    ctx.fill();
                 }
             });
         }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b2ae6a-616f-4903-ad42-4c44712303ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StoreHouseKeeperWeb.py" afterPath="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/staticweb/javascripts/main.js" afterPath="$PROJECT_DIR$/static/staticweb/javascripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.html" afterPath="$PROJECT_DIR$/templates/main.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/staticweb/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="552" column="30" lean-forward="false" selection-start-line="552" selection-start-column="30" selection-end-line="552" selection-end-column="30" />
+            <state relative-caret-position="-60">
+              <caret line="159" column="33" lean-forward="true" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
               <folding>
                 <element signature="n#!!block;n#uint82str#0" expanded="false" />
                 <element signature="n#!!block;n#newDate#0" expanded="false" />
@@ -88,9 +88,9 @@
                 <element signature="e#16806#17455#0" expanded="false" />
                 <element signature="e#19593#19951#0" expanded="false" />
                 <element signature="e#19993#20353#0" expanded="false" />
-                <marker date="1571414110430" expanded="true" signature="18959:18981" ph="data:" />
-                <marker date="1571414110430" expanded="true" signature="19035:19059" ph="..." />
-                <marker date="1571414110430" expanded="true" signature="19035:19071" ph="..." />
+                <marker date="1571414647535" expanded="true" signature="18959:18981" ph="data:" />
+                <marker date="1571414647535" expanded="true" signature="19035:19059" ph="..." />
+                <marker date="1571414647535" expanded="true" signature="19035:19071" ph="..." />
               </folding>
             </state>
           </provider>
@@ -192,8 +192,8 @@
         <option value="$PROJECT_DIR$/static/staticweb/javascripts/login.js" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/connSQL.py" />
-        <option value="$PROJECT_DIR$/static/staticweb/javascripts/main.js" />
         <option value="$PROJECT_DIR$/StoreHouseKeeperWeb.py" />
+        <option value="$PROJECT_DIR$/static/staticweb/javascripts/main.js" />
         <option value="$PROJECT_DIR$/templates/main.html" />
       </list>
     </option>
@@ -746,38 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/staticweb/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="552" column="30" lean-forward="false" selection-start-line="552" selection-start-column="30" selection-end-line="552" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!block;n#uint82str#0" expanded="false" />
-            <element signature="n#!!block;n#newDate#0" expanded="false" />
-            <element signature="n#!!block;n#newDateString#0" expanded="false" />
-            <element signature="n#!!block;n#transformArrayBufferToBase64#0" expanded="false" />
-            <element signature="n#!!block;n#getImage_C#0" expanded="false" />
-            <element signature="n#!!block;n#getImage_M#0" expanded="false" />
-            <element signature="n#!!block;n#control_car#0" expanded="false" />
-            <element signature="e#6591#7437#0" expanded="false" />
-            <element signature="e#7572#7632#0" expanded="false" />
-            <element signature="e#9271#9548#0" expanded="false" />
-            <element signature="e#9607#9680#0" expanded="false" />
-            <element signature="e#9737#9810#0" expanded="false" />
-            <element signature="e#13425#13985#0" expanded="false" />
-            <element signature="e#14036#14683#0" expanded="false" />
-            <element signature="e#14722#15369#0" expanded="false" />
-            <element signature="e#15410#16061#0" expanded="false" />
-            <element signature="e#16109#16767#0" expanded="false" />
-            <element signature="e#16806#17455#0" expanded="false" />
-            <element signature="e#19593#19951#0" expanded="false" />
-            <element signature="e#19993#20353#0" expanded="false" />
-            <marker date="1571414110430" expanded="true" signature="18959:18981" ph="data:" />
-            <marker date="1571414110430" expanded="true" signature="19035:19059" ph="..." />
-            <marker date="1571414110430" expanded="true" signature="19035:19071" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StoreHouseKeeperWeb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -804,6 +772,38 @@
             <element signature="n#style#0;n#canvas#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#6;n#form#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#button#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/staticweb/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="159" column="33" lean-forward="true" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!block;n#uint82str#0" expanded="false" />
+            <element signature="n#!!block;n#newDate#0" expanded="false" />
+            <element signature="n#!!block;n#newDateString#0" expanded="false" />
+            <element signature="n#!!block;n#transformArrayBufferToBase64#0" expanded="false" />
+            <element signature="n#!!block;n#getImage_C#0" expanded="false" />
+            <element signature="n#!!block;n#getImage_M#0" expanded="false" />
+            <element signature="n#!!block;n#control_car#0" expanded="false" />
+            <element signature="e#6591#7437#0" expanded="false" />
+            <element signature="e#7572#7632#0" expanded="false" />
+            <element signature="e#9271#9548#0" expanded="false" />
+            <element signature="e#9607#9680#0" expanded="false" />
+            <element signature="e#9737#9810#0" expanded="false" />
+            <element signature="e#13425#13985#0" expanded="false" />
+            <element signature="e#14036#14683#0" expanded="false" />
+            <element signature="e#14722#15369#0" expanded="false" />
+            <element signature="e#15410#16061#0" expanded="false" />
+            <element signature="e#16109#16767#0" expanded="false" />
+            <element signature="e#16806#17455#0" expanded="false" />
+            <element signature="e#19593#19951#0" expanded="false" />
+            <element signature="e#19993#20353#0" expanded="false" />
+            <marker date="1571414647535" expanded="true" signature="18959:18981" ph="data:" />
+            <marker date="1571414647535" expanded="true" signature="19035:19059" ph="..." />
+            <marker date="1571414647535" expanded="true" signature="19035:19071" ph="..." />
           </folding>
         </state>
       </provider>
