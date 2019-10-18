@@ -324,7 +324,7 @@ layui.use(['element','table','layer'], function(){
                 elem: '#log_tbl'
                 , height: 500
                 , url: '/api/log/operating/' //数据接口
-                , page: true //开启分页
+                , page: false //开启分页
                 , cols: [[
                     {field: 'optime', title: '操作时间', width: 150}
                     , {field: 'optype', title: '操作类型', width: 150}
@@ -355,7 +355,7 @@ layui.use(['element','table','layer'], function(){
                 elem: '#log_tbl'
                 , height: 500
                 , url: '/api/log/warning/' //数据接口
-                , page: true //开启分页
+                , page: false //开启分页
                 , cols: [[
                     {field: 'wrtime', title: '发生时间', width: 150}
                     , {field: 'wrtype', title: '危险类型', width: 150}
