@@ -59,8 +59,6 @@ function getImage_C(){
             'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
         },
         success: function (res) {
-            console.log(res.errno);//0则无问题
-            console.log(res.data.current_value.index);//image_url+'https://api.heclouds.com/bindata/'
             console.log(res.data.update_at);//时间戳
             if(res.errno==0){
                 image_url = res.data.current_value.index;
@@ -98,8 +96,6 @@ function getImage_M(){
             'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
         },
         success: function (res) {
-            console.log(res.errno);//0则无问题
-            console.log(res.data.current_value.index);//image_url+'https://api.heclouds.com/bindata/'
             console.log(res.data.update_at);//时间戳
             if(res.errno==0){
                 image_url = res.data.current_value.index;
@@ -125,6 +121,8 @@ function getImage_M(){
 }
 
 function getCarPos() {
+    var pos_x = 0;
+    var pos_y = 0;
     $.ajax({
         url: '/image/devices/38723967/datapoints?/query',
         type: 'get',
@@ -136,21 +134,27 @@ function getCarPos() {
             'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
         },
         success: function (res) {
-            console.log(res.data.datastreams[0].datapoints[0].value);
-        }
-    });
-    $.ajax({
-        url: '/image/devices/38723967/datapoints?/query',
-        type: 'get',
-        data:{
-            'datastream_id': 'y'
-        },
-        headers: {
-            'Content-Type': 'application/json',
-            'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
-        },
-        success: function (res) {
-            console.log(res.data.datastreams[0].datapoints[0].value);
+            pos_x = res.data.datastreams[0].datapoints[0].value;
+            $.ajax({
+                url: '/image/devices/38723967/datapoints?/query',
+                type: 'get',
+                data:{
+                    'datastream_id': 'y'
+                },
+                headers: {
+                    'Content-Type': 'application/json',
+                    'api-key': 'S1iF7YEqm7z7tMT7FQln46BRrNI='
+                },
+                success: function (res) {
+                    pos_y = res.data.datastreams[0].datapoints[0].value;
+                    var canvas = document.getElementById("carPos");
+                    canvas.width = $('#image_M').width();
+                    canvas.height = $('#image_M').height();
+                    var ctx = canvas.getContext('2d');
+                    ctx.fillStyle="#FF0000";
+                    ctx.fillRect(canvas.width*pos_x-5,canvas.height*(1-pos_y)-5,10,10);
+                }
+            });
         }
     });
 }
@@ -173,7 +177,7 @@ function control_car(data_in) {
 layui.use(['element','table','layer'], function(){
     window.setInterval(getImage_C,2000);
     window.setInterval(getImage_M,2000);
-    window.setInterval(getCarPos,2000);
+    window.setInterval(getCarPos,3000);
     window.chartColors = {
         red: 'rgb(255, 99, 132)',
         orange: 'rgb(255, 159, 64)',

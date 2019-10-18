@@ -371,16 +371,16 @@ def msg_send(code):
 
 global warn
 warn = {
-    't_min': 22,
-    't_max': 27,
-    'h_min': 66,
-    'h_max': 78,
+    't_min': 14,
+    't_max': 28,
+    'h_min': 30,
+    'h_max': 300,
     's_min': 0,
-    's_max': 900,
-    'i_min': -1,
-    'i_max': 15,
-    'c_min': 102200,
-    'c_max': 102250,
+    's_max': 3000,
+    'i_min': 0,
+    'i_max': 300,
+    'c_min': 100000,
+    'c_max': 103000,
     'waon': False
 }
 
